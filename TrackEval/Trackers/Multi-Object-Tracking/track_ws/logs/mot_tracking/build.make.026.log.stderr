@@ -1,0 +1,36 @@
+In file included from [01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/testkitti.cpp:30[m[K:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/readparam.h:[m[K In member function ‘[01m[KParam Param::operator=(Param&)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/readparam.h:82:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   82 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/tracker.h:21[m[K,
+                 from [01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/testkitti.cpp:31[m[K:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:[m[K In member function ‘[01m[Kint Track::Prediction(float)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:86:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   86 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:[m[K In member function ‘[01m[Kint Track::Update(std::vector<Eigen::Matrix<double, -1, 1> >&, const Eigen::VectorXd&, const float&, float&)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:95:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   95 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:[m[K In member function ‘[01m[Kint Track::Update(Eigen::VectorXd&)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/track.h:104:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  104 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+In file included from [01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/testkitti.cpp:50[m[K:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:[m[K In member function ‘[01m[Kbool Kitti_Reader::getRBGImage(cv::Mat, double)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:120:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  120 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:[m[K In member function ‘[01m[Kbool Kitti_Reader::getGPS(double&, double&, double&, double&, double&, double)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:161:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  161 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:[m[K In member function ‘[01m[Kbool Kitti_Reader::getLabel(std::vector<Detect>&, double)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:166:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  166 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:[m[K In member function ‘[01m[Kdouble Kitti_Reader::load_Label_Data(std::string)[m[K’:
+[01m[K/home/lulu/gits/Multi-Object-Tracking/track_ws/src/mot_tracking/src/data_source/kitti_reader.h:292:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  292 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K

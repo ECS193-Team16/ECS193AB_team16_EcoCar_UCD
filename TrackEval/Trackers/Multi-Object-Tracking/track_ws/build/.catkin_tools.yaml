@@ -1,0 +1,6 @@
+devel_space: /home/lulu/gits/Multi-Object-Tracking/track_ws/devel
+install: false
+install_space: /home/lulu/gits/Multi-Object-Tracking/track_ws/install
+profile: default
+source_space: /home/lulu/gits/Multi-Object-Tracking/track_ws/src
+workspace: /home/lulu/gits/Multi-Object-Tracking/track_ws

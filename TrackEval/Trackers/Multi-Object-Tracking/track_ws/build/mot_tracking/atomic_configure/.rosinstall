@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lulu/gits/Multi-Object-Tracking/track_ws/devel/.private/mot_tracking/setup.sh

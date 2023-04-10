@@ -1,0 +1,8 @@
+prefix=/home/lulu/gits/Multi-Object-Tracking/track_ws/devel/.private/mot_tracking
+
+Name: mot_tracking
+Description: Description of mot_tracking
+Version: 0.0.0
+Cflags: 
+Libs: 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs
