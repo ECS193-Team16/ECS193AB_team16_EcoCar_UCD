@@ -26,7 +26,58 @@
   <ClocksManagement>
     <Property LongName="ClocksManagement.activeClock" Type="4"><![CDATA[1|0|RTMaps_standard_clock]]></Property>
   </ClocksManagement>
-  <Component InstanceName="DataViewer_1_1" Model="DataViewer" Version="2.0.15" x="696" y="232" z="0">
+  <Component InstanceName="DataViewer_1" Model="DataViewer" Version="2.0.15" x="544" y="328" z="0">
+    <Input LongName="DataViewer_1.input_0" Name="input_0">
+      <Property LongName="DataViewer_1.input_0.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_0.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1.input_1" Name="input_1">
+      <Property LongName="DataViewer_1.input_1.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_1.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1.input_2" Name="input_2">
+      <Property LongName="DataViewer_1.input_2.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1.input_2.subsampling" Type="1">1</Property>
+    </Input>
+    <Property LongName="DataViewer_1.begin_guard" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="DataViewer_1.widget_begin_config" Type="3" SubType="256"><![CDATA[General Configuration]]></ReadOnlyProperty>
+    <Property LongName="DataViewer_1.autoDirty" Type="0">true</Property>
+    <Property LongName="DataViewer_1.run" Type="0">false</Property>
+    <Property LongName="DataViewer_1.alwaysOnTop" Type="4"><![CDATA[4|0|Only at run time|Only at design time|No|Both at run time and design time]]></Property>
+    <Property LongName="DataViewer_1.moveable" Type="0">true</Property>
+    <Property LongName="DataViewer_1.hidden" Type="0">false</Property>
+    <Property LongName="DataViewer_1.title" Type="3"><![CDATA[]]></Property>
+    <Property LongName="DataViewer_1.x" Type="1">631</Property>
+    <Property LongName="DataViewer_1.y" Type="1">474</Property>
+    <Property LongName="DataViewer_1.width" Type="1">530</Property>
+    <Property LongName="DataViewer_1.height" Type="1">420</Property>
+    <Property LongName="DataViewer_1.end_guard" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="DataViewer_1.widget_end_config" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="DataViewer_1.specific_begin_config" Type="3" SubType="256"><![CDATA[Specific Configuration]]></ReadOnlyProperty>
+    <Property LongName="DataViewer_1.nbInputs" Type="1">3</Property>
+    <Property LongName="DataViewer_1.compactMode" Type="0">false</Property>
+    <Property LongName="DataViewer_1.showInfo" Type="0">true</Property>
+    <Property LongName="DataViewer_1.showData" Type="0">true</Property>
+    <Property LongName="DataViewer_1.showPrettyTimestamp" Type="0">true</Property>
+    <Property LongName="DataViewer_1.float32Format" Type="3"><![CDATA[%9g]]></Property>
+    <Property LongName="DataViewer_1.float64Format" Type="3"><![CDATA[%9g]]></Property>
+    <Property LongName="DataViewer_1.integer8Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer16Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer32Format" Type="3"><![CDATA[%d]]></Property>
+    <Property LongName="DataViewer_1.integer64Format" Type="3"><![CDATA[%ld]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger8Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger16Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger32Format" Type="3"><![CDATA[%u]]></Property>
+    <Property LongName="DataViewer_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
+    <Property LongName="DataViewer_1.hexDisplay" Type="0">false</Property>
+    <Property LongName="DataViewer_1.internalState" Type="3" SubType="128"><![CDATA[238;266]]></Property>
+    <Property LongName="DataViewer_1.expandedState" Type="3" SubType="128"><![CDATA[1|PythonBridge_1.objects;1|Info:PythonBridge_1.objects;1|Data:PythonBridge_1.objects;1|PythonBridge_1.pose;1|Info:PythonBridge_1.pose;0|Data:PythonBridge_1.pose;1|PythonBridge_1.det_scores;1|Info:PythonBridge_1.det_scores;1|Data:PythonBridge_1.det_scores]]></Property>
+    <ReadOnlyProperty LongName="DataViewer_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
+    <Property LongName="DataViewer_1.threaded" Type="0">true</Property>
+    <Property LongName="DataViewer_1.priority" Type="1">128</Property>
+    <Property LongName="DataViewer_1.autoStart" Type="0">true</Property>
+  </Component>
+  <Component InstanceName="DataViewer_1_1" Model="DataViewer" Version="2.0.15" x="1072" y="216" z="0">
     <Input LongName="DataViewer_1_1.input_0" Name="input_0">
       <Property LongName="DataViewer_1_1.input_0.readerType" Type="1">4</Property>
       <Property LongName="DataViewer_1_1.input_0.subsampling" Type="1">1</Property>
@@ -34,6 +85,10 @@
     <Input LongName="DataViewer_1_1.input_1" Name="input_1">
       <Property LongName="DataViewer_1_1.input_1.readerType" Type="1">4</Property>
       <Property LongName="DataViewer_1_1.input_1.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="DataViewer_1_1.input_2" Name="input_2">
+      <Property LongName="DataViewer_1_1.input_2.readerType" Type="1">4</Property>
+      <Property LongName="DataViewer_1_1.input_2.subsampling" Type="1">1</Property>
     </Input>
     <Property LongName="DataViewer_1_1.begin_guard" Type="0" SubType="128">true</Property>
     <ReadOnlyProperty LongName="DataViewer_1_1.widget_begin_config" Type="3" SubType="256"><![CDATA[General Configuration]]></ReadOnlyProperty>
@@ -43,14 +98,14 @@
     <Property LongName="DataViewer_1_1.moveable" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.hidden" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1_1.x" Type="1">529</Property>
-    <Property LongName="DataViewer_1_1.y" Type="1">527</Property>
+    <Property LongName="DataViewer_1_1.x" Type="1">176</Property>
+    <Property LongName="DataViewer_1_1.y" Type="1">160</Property>
     <Property LongName="DataViewer_1_1.width" Type="1">530</Property>
     <Property LongName="DataViewer_1_1.height" Type="1">420</Property>
     <Property LongName="DataViewer_1_1.end_guard" Type="0" SubType="128">true</Property>
     <ReadOnlyProperty LongName="DataViewer_1_1.widget_end_config" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="DataViewer_1_1.specific_begin_config" Type="3" SubType="256"><![CDATA[Specific Configuration]]></ReadOnlyProperty>
-    <Property LongName="DataViewer_1_1.nbInputs" Type="1">2</Property>
+    <Property LongName="DataViewer_1_1.nbInputs" Type="1">3</Property>
     <Property LongName="DataViewer_1_1.compactMode" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.showInfo" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.showData" Type="0">true</Property>
@@ -67,60 +122,13 @@
     <Property LongName="DataViewer_1_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
     <Property LongName="DataViewer_1_1.hexDisplay" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.internalState" Type="3" SubType="128"><![CDATA[238;282]]></Property>
-    <Property LongName="DataViewer_1_1.expandedState" Type="3" SubType="128"><![CDATA[0|;0|]]></Property>
+    <Property LongName="DataViewer_1_1.expandedState" Type="3" SubType="128"><![CDATA[0|;0|;0|]]></Property>
     <ReadOnlyProperty LongName="DataViewer_1_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
     <Property LongName="DataViewer_1_1.threaded" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.priority" Type="1">128</Property>
     <Property LongName="DataViewer_1_1.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="DataViewer_1_1_1" Model="DataViewer" Version="2.0.15" x="248" y="312" z="0">
-    <Input LongName="DataViewer_1_1_1.input_0" Name="input_0">
-      <Property LongName="DataViewer_1_1_1.input_0.readerType" Type="1">4</Property>
-      <Property LongName="DataViewer_1_1_1.input_0.subsampling" Type="1">1</Property>
-    </Input>
-    <Input LongName="DataViewer_1_1_1.input_1" Name="input_1">
-      <Property LongName="DataViewer_1_1_1.input_1.readerType" Type="1">4</Property>
-      <Property LongName="DataViewer_1_1_1.input_1.subsampling" Type="1">1</Property>
-    </Input>
-    <Property LongName="DataViewer_1_1_1.begin_guard" Type="0" SubType="128">true</Property>
-    <ReadOnlyProperty LongName="DataViewer_1_1_1.widget_begin_config" Type="3" SubType="256"><![CDATA[General Configuration]]></ReadOnlyProperty>
-    <Property LongName="DataViewer_1_1_1.autoDirty" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.run" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.alwaysOnTop" Type="4"><![CDATA[4|0|Only at run time|Only at design time|No|Both at run time and design time]]></Property>
-    <Property LongName="DataViewer_1_1_1.moveable" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.hidden" Type="0">false</Property>
-    <Property LongName="DataViewer_1_1_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1_1_1.x" Type="1">461</Property>
-    <Property LongName="DataViewer_1_1_1.y" Type="1">612</Property>
-    <Property LongName="DataViewer_1_1_1.width" Type="1">530</Property>
-    <Property LongName="DataViewer_1_1_1.height" Type="1">420</Property>
-    <Property LongName="DataViewer_1_1_1.end_guard" Type="0" SubType="128">true</Property>
-    <ReadOnlyProperty LongName="DataViewer_1_1_1.widget_end_config" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="DataViewer_1_1_1.specific_begin_config" Type="3" SubType="256"><![CDATA[Specific Configuration]]></ReadOnlyProperty>
-    <Property LongName="DataViewer_1_1_1.nbInputs" Type="1">2</Property>
-    <Property LongName="DataViewer_1_1_1.compactMode" Type="0">false</Property>
-    <Property LongName="DataViewer_1_1_1.showInfo" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.showData" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.showPrettyTimestamp" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.float32Format" Type="3"><![CDATA[%9g]]></Property>
-    <Property LongName="DataViewer_1_1_1.float64Format" Type="3"><![CDATA[%9g]]></Property>
-    <Property LongName="DataViewer_1_1_1.integer8Format" Type="3"><![CDATA[%d]]></Property>
-    <Property LongName="DataViewer_1_1_1.integer16Format" Type="3"><![CDATA[%d]]></Property>
-    <Property LongName="DataViewer_1_1_1.integer32Format" Type="3"><![CDATA[%d]]></Property>
-    <Property LongName="DataViewer_1_1_1.integer64Format" Type="3"><![CDATA[%ld]]></Property>
-    <Property LongName="DataViewer_1_1_1.unsignedInteger8Format" Type="3"><![CDATA[%u]]></Property>
-    <Property LongName="DataViewer_1_1_1.unsignedInteger16Format" Type="3"><![CDATA[%u]]></Property>
-    <Property LongName="DataViewer_1_1_1.unsignedInteger32Format" Type="3"><![CDATA[%u]]></Property>
-    <Property LongName="DataViewer_1_1_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
-    <Property LongName="DataViewer_1_1_1.hexDisplay" Type="0">false</Property>
-    <Property LongName="DataViewer_1_1_1.internalState" Type="3" SubType="128"><![CDATA[238;282]]></Property>
-    <Property LongName="DataViewer_1_1_1.expandedState" Type="3" SubType="128"><![CDATA[0|;0|]]></Property>
-    <ReadOnlyProperty LongName="DataViewer_1_1_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
-    <Property LongName="DataViewer_1_1_1.threaded" Type="0">true</Property>
-    <Property LongName="DataViewer_1_1_1.priority" Type="1">128</Property>
-    <Property LongName="DataViewer_1_1_1.autoStart" Type="0">true</Property>
-  </Component>
-  <Component InstanceName="KittiCalibrationParser_1" Model="KittiCalibrationParser" Version="1.3.2" x="520" y="80" z="0">
+  <Component InstanceName="KittiCalibrationParser_1" Model="KittiCalibrationParser" Version="1.3.2" x="608" y="72" z="0">
     <Output LongName="KittiCalibrationParser_1.VelodyneToImage_ProjectionMatrix_3x4" Name="VelodyneToImage_ProjectionMatrix_3x4">
       <Property LongName="KittiCalibrationParser_1.VelodyneToImage_ProjectionMatrix_3x4.subsampling" Type="1">1</Property>
       <Property LongName="KittiCalibrationParser_1.VelodyneToImage_ProjectionMatrix_3x4.fifosize" Type="1">16</Property>
@@ -135,7 +143,7 @@
     <Property LongName="KittiCalibrationParser_1.priority" Type="1">128</Property>
     <Property LongName="KittiCalibrationParser_1.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="KittiImporter_1" Model="KittiImporter" Version="2.1.2" x="128" y="-8" z="0">
+  <Component InstanceName="KittiImporter_1" Model="KittiImporter" Version="2.1.2" x="152" y="0" z="0">
     <Output LongName="KittiImporter_1.image_02" Name="image_02">
       <Property LongName="KittiImporter_1.image_02.subsampling" Type="1">1</Property>
       <Property LongName="KittiImporter_1.image_02.fifosize" Type="1">16</Property>
@@ -182,7 +190,7 @@
     <Property LongName="KittiImporter_1.priority" Type="1">128</Property>
     <Property LongName="KittiImporter_1.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="MOT" Model="PythonBridge" Version="4.3.5" x="464" y="208" z="0">
+  <Component InstanceName="MOT" Model="PythonBridge" Version="4.3.5" x="784" y="224" z="0">
     <Input LongName="MOT.objects" Name="objects">
       <Property LongName="MOT.objects.readerType" Type="1">0</Property>
       <Property LongName="MOT.objects.subsampling" Type="1">1</Property>
@@ -213,7 +221,7 @@
     <Property LongName="MOT.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="MOT.capturePythonPrint" Type="0">true</Property>
     <Property LongName="MOT.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">225692</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">383999</ReadOnlyProperty>
     <Property LongName="MOT.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="MOT.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="MOT.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -232,7 +240,7 @@
     <Property LongName="MOT.priority" Type="1">128</Property>
     <Property LongName="MOT.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="oxt2gobalPose" Model="PythonBridge" Version="4.3.5" x="472" y="24" z="0">
+  <Component InstanceName="oxt2gobalPose" Model="PythonBridge" Version="4.3.5" x="112" y="344" z="0">
     <Input LongName="oxt2gobalPose.oxt" Name="oxt">
       <Property LongName="oxt2gobalPose.oxt.readerType" Type="1">0</Property>
       <Property LongName="oxt2gobalPose.oxt.subsampling" Type="1">1</Property>
@@ -250,7 +258,7 @@
     <Property LongName="oxt2gobalPose.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="oxt2gobalPose.capturePythonPrint" Type="0">true</Property>
     <Property LongName="oxt2gobalPose.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">225706</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">384013</ReadOnlyProperty>
     <Property LongName="oxt2gobalPose.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="oxt2gobalPose.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="oxt2gobalPose.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -268,7 +276,7 @@
     <Property LongName="oxt2gobalPose.priority" Type="1">128</Property>
     <Property LongName="oxt2gobalPose.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="PythonBridge_1" Model="PythonBridge" Version="4.3.5" x="104" y="208" z="0">
+  <Component InstanceName="PythonBridge_1" Model="PythonBridge" Version="4.3.5" x="360" y="224" z="0">
     <Output LongName="PythonBridge_1.objects" Name="objects">
       <Property LongName="PythonBridge_1.objects.subsampling" Type="1">1</Property>
       <Property LongName="PythonBridge_1.objects.fifosize" Type="1">16</Property>
@@ -286,13 +294,13 @@
     </Output>
     <Property LongName="PythonBridge_1.guard_begin" Type="0" SubType="128">true</Property>
     <Property LongName="PythonBridge_1.internalInputs" Type="3" SubType="128"><![CDATA[]]></Property>
-    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;0==;0#pose;10==;0#det_scores;0==;0]]></Property>
-    <Property LongName="PythonBridge_1.internalProperties" Type="3" SubType="128"><![CDATA[dataset_path||13||/home/lulu/Projects/EcoCar/Data/training||0#seq_id||8||5#detections_path||13||/home/lulu/Projects/EcoCar/Data/detection/virconv/training||0#min_score||11||-0.5]]></Property>
+    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;10==;0#pose;10==;0#det_scores;10==;0]]></Property>
+    <Property LongName="PythonBridge_1.internalProperties" Type="3" SubType="128"><![CDATA[dataset_path||13||/home/lulu/Projects/EcoCar/Data/training||0#seq_id||8||6#detections_path||13||/home/lulu/Projects/EcoCar/Data/detection/virconv/training||0#min_score||11||-0.5]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_begin_configuration" Type="3" SubType="256"><![CDATA[Advanced Configuration]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_1.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_1.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">253996</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">384027</ReadOnlyProperty>
     <Property LongName="PythonBridge_1.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_1.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -300,13 +308,13 @@
     <Property LongName="PythonBridge_1.className" Type="3"><![CDATA[rtmaps_python]]></Property>
     <Property LongName="PythonBridge_1.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3]]></Relative></Property>
     <Property LongName="PythonBridge_1.pythonFilename" Type="3" SubType="80"><![CDATA[/home/lulu/Projects/EcoCar/Data/kitti_dataset.bridge.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/Data/kitti_dataset.bridge.py]]></Relative></Property>
-    <Property LongName="PythonBridge_1.readingPolicy" Type="4"><![CDATA[5|1|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
-    <Property LongName="PythonBridge_1.timeout" Type="1" SubType="1">-1</Property>
+    <Property LongName="PythonBridge_1.readingPolicy" Type="4"><![CDATA[5|2|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
+    <Property LongName="PythonBridge_1.samplingPeriod" Type="1" SubType="1">40000</Property>
     <Property LongName="PythonBridge_1.inputsBehavior" Type="4"><![CDATA[2|0|AllowEmptyInputs|Wait4AllInputs]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
     <ReadOnlyProperty LongName="PythonBridge_1.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.dataset_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/training]]></Property>
-    <Property LongName="PythonBridge_1.seq_id" Type="1">5</Property>
+    <Property LongName="PythonBridge_1.seq_id" Type="1">6</Property>
     <Property LongName="PythonBridge_1.detections_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/detection/virconv/training]]></Property>
     <Property LongName="PythonBridge_1.min_score" Type="2">-0.5</Property>
     <Property LongName="PythonBridge_1.guard_end" Type="0" SubType="128">true</Property>
@@ -315,18 +323,66 @@
     <Property LongName="PythonBridge_1.priority" Type="1">128</Property>
     <Property LongName="PythonBridge_1.autoStart" Type="0">true</Property>
   </Component>
+  <Component InstanceName="PythonBridge_2" Model="PythonBridge" Version="4.3.5" x="120" y="232" z="0">
+    <Input LongName="PythonBridge_2.image_in" Name="image_in">
+      <Property LongName="PythonBridge_2.image_in.readerType" Type="1">0</Property>
+      <Property LongName="PythonBridge_2.image_in.subsampling" Type="1">1</Property>
+    </Input>
+    <Output LongName="PythonBridge_2.outImage" Name="outImage">
+      <Property LongName="PythonBridge_2.outImage.subsampling" Type="1">1</Property>
+      <Property LongName="PythonBridge_2.outImage.fifosize" Type="1">16</Property>
+      <Property LongName="PythonBridge_2.outImage.periodic" Type="0">false</Property>
+    </Output>
+    <Output LongName="PythonBridge_2.cam_det3dText" Name="cam_det3dText">
+      <Property LongName="PythonBridge_2.cam_det3dText.subsampling" Type="1">1</Property>
+      <Property LongName="PythonBridge_2.cam_det3dText.fifosize" Type="1">16</Property>
+      <Property LongName="PythonBridge_2.cam_det3dText.periodic" Type="0">false</Property>
+    </Output>
+    <Property LongName="PythonBridge_2.guard_begin" Type="0" SubType="128">true</Property>
+    <Property LongName="PythonBridge_2.internalInputs" Type="3" SubType="128"><![CDATA[image_in;1==]]></Property>
+    <Property LongName="PythonBridge_2.internalOutputs" Type="3" SubType="128"><![CDATA[outImage;0==;0#cam_det3dText;0==;4096]]></Property>
+    <Property LongName="PythonBridge_2.internalProperties" Type="3" SubType="128"><![CDATA[]]></Property>
+    <ReadOnlyProperty LongName="PythonBridge_2.advance_begin_configuration" Type="3" SubType="256"><![CDATA[Advanced Configuration]]></ReadOnlyProperty>
+    <Property LongName="PythonBridge_2.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
+    <Property LongName="PythonBridge_2.capturePythonPrint" Type="0">true</Property>
+    <Property LongName="PythonBridge_2.useTCPOnly" Type="0">false</Property>
+    <ReadOnlyProperty LongName="PythonBridge_2.pythonPID" Type="1">384041</ReadOnlyProperty>
+    <Property LongName="PythonBridge_2.FileSHMSize" Type="1">15000000</Property>
+    <Property LongName="PythonBridge_2.useNuitka" Type="0">false</Property>
+    <ReadOnlyProperty LongName="PythonBridge_2.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_2.basic_begin_configuration" Type="3" SubType="256"><![CDATA[Basic Configuration]]></ReadOnlyProperty>
+    <Property LongName="PythonBridge_2.className" Type="3"><![CDATA[rtmaps_python]]></Property>
+    <Property LongName="PythonBridge_2.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3]]></Relative></Property>
+    <Property LongName="PythonBridge_2.pythonFilename" Type="3" SubType="80"><![CDATA[/home/lulu/Projects/EcoCar/SMOKE-win/smokeCam3d.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/SMOKE-win/smokeCam3d.py]]></Relative></Property>
+    <Property LongName="PythonBridge_2.readingPolicy" Type="4"><![CDATA[5|0|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
+    <Property LongName="PythonBridge_2.synchroTolerance" Type="1" SubType="1">0</Property>
+    <ReadOnlyProperty LongName="PythonBridge_2.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_2.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
+    <Property LongName="PythonBridge_2.guard_end" Type="0" SubType="128">true</Property>
+    <ReadOnlyProperty LongName="PythonBridge_2.userSubsectionEnd" Type="0" SubType="512">true</ReadOnlyProperty>
+    <Property LongName="PythonBridge_2.threaded" Type="0">true</Property>
+    <Property LongName="PythonBridge_2.priority" Type="1">128</Property>
+    <Property LongName="PythonBridge_2.autoStart" Type="0">false</Property>
+  </Component>
+  <Connection Output="PythonBridge_1.objects" Input="DataViewer_1.input_0"/>
+  <Connection Output="PythonBridge_1.pose" Input="DataViewer_1.input_1"/>
+  <Connection Output="PythonBridge_1.det_scores" Input="DataViewer_1.input_2"/>
   <Connection Output="MOT.bbs" Input="DataViewer_1_1.input_0"/>
   <Connection Output="MOT.ids" Input="DataViewer_1_1.input_1"/>
-  <Connection Output="PythonBridge_1.objects" Input="DataViewer_1_1_1.input_0"/>
+  <Connection Output="PythonBridge_1.objects" Input="MOT.objects"/>
+  <Connection Output="PythonBridge_1.pose" Input="MOT.pose"/>
+  <Connection Output="PythonBridge_1.det_scores" Input="MOT.det_scores"/>
   <RTBoardView ID="JavaStudio1.0">
     <ComponentBox InstanceName="DataViewer_1_1" reversed="false">
       <Description/>
     </ComponentBox>
-    <ComponentBox InstanceName="DataViewer_1_1_1" reversed="false">
-      <Description/>
-    </ComponentBox>
+    <ConnectionShape InstanceName="DataViewer_1.input_0" color="0"/>
+    <ConnectionShape InstanceName="DataViewer_1.input_1" color="0"/>
+    <ConnectionShape InstanceName="DataViewer_1.input_2" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_1.input_0" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_1.input_1" color="0"/>
-    <ConnectionShape InstanceName="DataViewer_1_1_1.input_0" color="0"/>
+    <ConnectionShape InstanceName="MOT.det_scores" color="0"/>
+    <ConnectionShape InstanceName="MOT.objects" color="0"/>
+    <ConnectionShape InstanceName="MOT.pose" color="0"/>
   </RTBoardView>
 </RTMapsDiagram>
