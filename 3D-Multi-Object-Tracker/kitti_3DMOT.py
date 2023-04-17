@@ -8,21 +8,14 @@ from tracker.config import cfg, cfg_from_yaml_file
 from tracker.box_op import *
 import numpy as np
 import argparse
+from object import Object
+from calib import Calib
 
 from evaluation_HOTA.scripts.run_kitti import eval_kitti
 
 
 def track_one_seq(seq_id, config):
-    """
-    tracking one sequence
-    Args:
-        seq_id: int, the sequence id
-        config: config
-    Returns: dataset: KittiTrackingDataset
-             tracker: Tracker3D
-             all_time: float, all tracking time
-             frame_num: int, num frames
-    """
+
     dataset_path = config.dataset_path
     detections_path = config.detections_path
     tracking_type = config.tracking_type
@@ -64,6 +57,8 @@ def track_one_seq(seq_id, config):
             write_one_tick(i,tracking_type,P2,V2C,pose,obs,ids,f)
 
     return dataset, tracker, all_time, frame_num
+def track_one_tick(ts,):
+
 
 def write_one_tick(ts,tracking_type,P2,V2C,pose,obs,ids,file):
     new_pose = np.mat(pose).I
@@ -91,13 +86,7 @@ def save_one_seq(dataset,
                  seq_id,
                  tracker,
                  config):
-    """
-    saving tracking results
-    Args:
-        dataset: KittiTrackingDataset, Iterable dataset object
-        seq_id: int, sequence id
-        tracker: Tracker3D
-    """
+
 
     save_path = config.save_path
     tracking_type = config.tracking_type

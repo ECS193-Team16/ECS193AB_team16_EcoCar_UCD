@@ -10,6 +10,8 @@ from tracker.config import cfg, cfg_from_yaml_file
 import numpy as np
 import os
 from tracker.box_op import *
+from object import Object
+from calib import Calib
 # Python class that will be called from RTMaps.
 
 
@@ -32,10 +34,9 @@ class rtmaps_python(BaseComponent):
         # output will be typed automatically.
         # You don’t need to set the buffer_size, in that case it will be set
         # automatically.
-        self.add_output("bbs", rtmaps.types.AUTO)
-        self.add_output("ids", rtmaps.types.AUTO)
+        self.add_output("oobjects", rtmaps.types.CUSTOM_STRUCT,                       typename="Object")
 
-        self.add_property("config_file", "", subtype=rtmaps.types.FILE)
+        self.add_property("config_file", "/home/lulu/Projects/EcoCar/3D-Multi-Object-Tracker/config/global/virconv_mot.yaml", subtype=rtmaps.types.FILE)
 
 # Birth() will be called once at diagram execution startup
     def Birth(self):
@@ -76,40 +77,13 @@ class rtmaps_python(BaseComponent):
 
         print("bbs",bbs)
         print("ids",ids)
-        save_path = "~/tmp/rtmaps/pred.txt"
-        tracking_type = ["Car"]
-        if not os.path.exists(save_path):
-            os.makedirs(save_path)
-
-        tracks = self.tracker.active_trajectories
-        for ob_id in tracks.keys():
-            track = tracks[ob_id]
-            ob = track.trajectory[timestamp]
-            updated_state, score = np.array(ob.updated_state.T), ob.score
-            box_template = np.zeros(shape=(1, 7))
-            box_template[0, 0:3] = updated_state[0, 0:3]
-            box_template[0, 3:7] = updated_state[0, 9:13]
-
-            box = register_bbs(box_template, pose)
-
-            box[:, 6] = -box[:, 6] - np.pi / 2
-            box[:, 2] -= box[:, 5] / 2
-            box[:, 0:3] = velo_to_cam(box[:, 0:3], V2C)[:, 0:3]
-
-            box = box[0]
-
-            box2d = bb3d_2_bb2d(box, P2)
-            print("saving")
-            with open(save_name, 'w+') as f:
-                print('%d %d %s -1 -1 -10 %.4f %.4f %.4f %.4f %.4f %.4f %.4f %.4f %.4f %.4f %.4f %.4f'
-                      % (timestamp, ob_id, tracking_type,
-                         box2d[0][0], box2d[0][1], box2d[0][2],
-                         box2d[0][3],
-                         box[5], box[4], box[3], box[0], box[1], box[2], box[6],
-                         score), file=f)
-
-            self.outputs["bbs"].write(bbs, timestamp)
-            self.outputs["ids"].write(ids, timestamp)
+        for i,box in enumerate(bbs):
+            objs=[]
+            obj=Object()
+            obj.box=box
+            obj.id=ids[i]
+            objs.append(obj)
+        self.outputs["oobjects"].write(objs, timestamp)
 
 # Death() will be called once at diagram execution shutdown
 
