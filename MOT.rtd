@@ -98,8 +98,8 @@
     <Property LongName="DataViewer_1_1.moveable" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.hidden" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1_1.x" Type="1">243</Property>
-    <Property LongName="DataViewer_1_1.y" Type="1">299</Property>
+    <Property LongName="DataViewer_1_1.x" Type="1">441</Property>
+    <Property LongName="DataViewer_1_1.y" Type="1">410</Property>
     <Property LongName="DataViewer_1_1.width" Type="1">530</Property>
     <Property LongName="DataViewer_1_1.height" Type="1">420</Property>
     <Property LongName="DataViewer_1_1.end_guard" Type="0" SubType="128">true</Property>
@@ -243,7 +243,7 @@
   </Component>
   <Component InstanceName="MOT" Model="PythonBridge" Version="4.3.5" x="784" y="160" z="0">
     <Input LongName="MOT.objects" Name="objects">
-      <Property LongName="MOT.objects.readerType" Type="1">4</Property>
+      <Property LongName="MOT.objects.readerType" Type="1">0</Property>
       <Property LongName="MOT.objects.subsampling" Type="1">1</Property>
     </Input>
     <Input LongName="MOT.pose" Name="pose">
@@ -271,8 +271,7 @@
     <Property LongName="MOT.className" Type="3"><![CDATA[rtmaps_python]]></Property>
     <Property LongName="MOT.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3]]></Relative></Property>
     <Property LongName="MOT.pythonFilename" Type="3" SubType="80"><![CDATA[/home/lulu/Projects/EcoCar/3D-Multi-Object-Tracker/3DMOT.bridge.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/3D-Multi-Object-Tracker/3DMOT.bridge.py]]></Relative></Property>
-    <Property LongName="MOT.readingPolicy" Type="4"><![CDATA[5|2|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
-    <Property LongName="MOT.samplingPeriod" Type="1" SubType="1">100000</Property>
+    <Property LongName="MOT.readingPolicy" Type="4"><![CDATA[5|3|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
     <Property LongName="MOT.inputsBehavior" Type="4"><![CDATA[2|1|AllowEmptyInputs|Wait4AllInputs]]></Property>
     <ReadOnlyProperty LongName="MOT.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
     <ReadOnlyProperty LongName="MOT.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
