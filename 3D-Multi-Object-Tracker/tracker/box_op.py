@@ -42,7 +42,7 @@ def get_registration_angle(mat):
 
 
 def register_bbs(boxes, pose):
-    print("register\n\n",boxes)
+    #print("register\n\n",boxes)
     if pose is None:
         return boxes
 

@@ -8,8 +8,8 @@ from tracker.config import cfg, cfg_from_yaml_file
 from tracker.box_op import *
 import numpy as np
 import argparse
-from object import Object
-from calib import Calib
+#from object import Object
+#from calib import Calib
 
 from evaluation_HOTA.scripts.run_kitti import eval_kitti
 
@@ -57,7 +57,7 @@ def track_one_seq(seq_id, config):
             write_one_tick(i,tracking_type,P2,V2C,pose,obs,ids,f)
 
     return dataset, tracker, all_time, frame_num
-def track_one_tick(ts,):
+
 
 
 def write_one_tick(ts,tracking_type,P2,V2C,pose,obs,ids,file):
