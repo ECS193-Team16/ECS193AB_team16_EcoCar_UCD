@@ -84,7 +84,7 @@ class rtmaps_python(BaseComponent):
         bbs = objects[mask]
         det_scores = det_scores[mask]
 
-        print("try:", bbs, mask)
+        #print("try:", bbs, mask)
         objs = []
         for i, box in enumerate(bbs):
             obj = RealObject()

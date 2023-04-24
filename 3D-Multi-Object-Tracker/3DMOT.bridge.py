@@ -84,9 +84,9 @@ class rtmaps_python(BaseComponent):
             obj=RealObject()
             obj.kind = 0  # 0 = Vehicle, 1 = Sign, 2 = Tree, 3 = Custom
             obj.id = ids[i]
-            obj.x = box[3]
-            obj.y = box[4]
-            obj.z = box[5]
+            obj.x = box[0]
+            obj.y = box[1]
+            obj.z = box[2]
             #self.color = 0
             #self.misc1 = 0
             #self.misc2 = 0
@@ -95,9 +95,9 @@ class rtmaps_python(BaseComponent):
             veh.kind = 0  # 0 = Car, 1 = Bus, 2 = Truck, 3 = Bike, 4 = Motorcycle
             veh.theta = box[6]
             #veh.speed = 0.0
-            veh.width = box[1]
-            veh.height = box[0]
-            veh.length = box[2]
+            veh.width = box[4]
+            veh.height = box[5]
+            veh.length = box[3]
             #veh.model = 0
             #veh.braking = False
             #veh.confidence = 0.0
