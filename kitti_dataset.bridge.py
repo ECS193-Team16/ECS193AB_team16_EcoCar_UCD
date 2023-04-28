@@ -5,12 +5,13 @@ import rtmaps.core as rt
 import rtmaps.types
 from rtmaps.real_objects import *
 from rtmaps.base_component import BaseComponent  # base class
-
-from collections import namedtuple
+import os
+#from collections import namedtuple
 import utils
 import numpy as np
 
-from dataset.kitti_dataset import KittiTrackingDataset
+from dataset.kitti_data_base import *
+#from dataset.kitti_dataset import KittiTrackingDataset
 from dataset.kitti_data_base import velo_to_cam
 
 #from calib import Calib
@@ -76,7 +77,7 @@ class rtmaps_python(BaseComponent):
         if ts >= len(self.dataset):
             return
         P2, V2C, points, image, objects, det_scores, pose = self.dataset[ts]
-        #print(self.properties["detections_path"].data)
+        print(self.properties["detections_path"].data)
         #print(P2, V2C, points, image, objects, det_scores, pose)
         #print(ts)
         #print(objects)
@@ -84,7 +85,7 @@ class rtmaps_python(BaseComponent):
         bbs = objects[mask]
         det_scores = det_scores[mask]
 
-        #print("try:", bbs, mask)
+        #print("try:", bbs, mask, ts)
         objs = []
         for i, box in enumerate(bbs):
             obj = RealObject()
@@ -114,9 +115,12 @@ class rtmaps_python(BaseComponent):
 
             objs.append(obj)
 
-        #print("objects",objects)
-        #print("pose",pose)
-        #print("det_scores",det_scores)
+        print("objects",objects)
+        print("pose",pose)
+        print("det_scores",det_scores)
+        self.time += 1
+        if len(objs)==0:
+            return
         io = rtmaps.types.Ioelt()
         io.data = objs
         io.ts = ts
@@ -126,12 +130,93 @@ class rtmaps_python(BaseComponent):
         #self.outputs["objects"].write(objects, ts)
         #self.outputs["det_scores"].write(det_scores, ts)
 
-        self.outputs["pose"].write(pose, ts)
+        self.outputs["pose"].write(np.array(pose,np.float32), ts)
         self.outputs["P2"].write(P2, ts)
         self.outputs["V2C"].write(np.array(V2C, np.float32), ts)
 
-        self.time += 1
 # Death() will be called once at diagram execution shutdown
 
     def Death(self):
         print("Passing through Death()")
+
+class KittiTrackingDataset:
+    def __init__(self,root_path,seq_id,ob_path = None,load_image=False,load_points=False,type=["Car"]):
+        self.seq_name = str(seq_id).zfill(4)
+        self.root_path = root_path
+        self.ob_path = os.path.join(ob_path,self.seq_name)
+        self.velo_path = os.path.join(self.root_path,"velodyne",self.seq_name)
+        self.image_path = os.path.join(self.root_path,"image_02",self.seq_name)
+        self.calib_path = os.path.join(self.root_path,"calib",self.seq_name)
+        self.pose_path = os.path.join(self.root_path, "pose", self.seq_name,'pose.txt')
+        self.type = type
+
+        self.all_ids = os.listdir(self.velo_path)
+        calib_path = self.calib_path + '.txt'
+
+        self.P2, self.V2C = read_calib(calib_path)
+        self.poses = read_pose(self.pose_path)
+        self.load_image = load_image
+        self.load_points = load_points
+
+        #self.ob_path = ob_path
+
+        self.items=[]
+        for i in range(len(self)):
+            self.items.append(self.getitem(i))
+            print(self.items[-1])
+
+    def __len__(self):
+        return len(self.all_ids)-1
+
+    def __getitem__(self,item):
+        print(self.items[item],"\n\n")
+        return self.items[item]
+
+    def getitem(self, item):
+
+        name = str(item).zfill(6)
+
+        velo_path = os.path.join(self.velo_path,name+'.bin')
+        image_path = os.path.join(self.image_path, name+'.png')
+
+        if self.load_points:
+            points = read_velodyne(velo_path,self.P2,self.V2C)
+        else:
+            points = None
+        if self.load_image:
+            image = read_image(image_path)
+        else:
+            image = None
+
+        if item in self.poses.keys():
+            pose = self.poses[item]
+        else:
+            pose = None
+
+        if self.ob_path is not None:
+            ob_path = os.path.join(self.ob_path, name + '.txt')
+            print(ob_path)
+            if not os.path.exists(ob_path):
+                objects = np.zeros(shape=(0, 7))
+                det_scores = np.zeros(shape=(0,))
+            else:
+                objects_list = []
+                det_scores = []
+                with open(ob_path) as f:
+                    for each_ob in f.readlines():
+                        infos = re.split(' ', each_ob)
+                        if infos[0] in self.type:
+                            objects_list.append(infos[8:15])
+                            det_scores.append(infos[15])
+                if len(objects_list)!=0:
+                    objects = np.array(objects_list,np.float32)
+                    objects[:, 3:6] = cam_to_velo(objects[:, 3:6], self.V2C)[:, :3]
+                    det_scores = np.array(det_scores,np.float32)
+                else:
+                    objects = np.zeros(shape=(0, 7))
+                    det_scores = np.zeros(shape=(0,))
+        else:
+            objects = np.zeros(shape=(0,7))
+            det_scores = np.zeros(shape=(0,))
+
+        return self.P2,self.V2C,points,image,objects,det_scores,pose
