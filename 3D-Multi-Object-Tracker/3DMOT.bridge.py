@@ -36,6 +36,7 @@ class rtmaps_python(BaseComponent):
         # You don’t need to set the buffer_size, in that case it will be set
         # automatically.
         self.add_output("oobjects", rtmaps.types.REAL_OBJECT)
+
         self.outputs["oobjects"].alloc_output_buffer(20)
 
         self.add_property("config_file", "/home/lulu/Projects/EcoCar/3D-Multi-Object-Tracker/config/global/virconv_mot.yaml", subtype=rtmaps.types.FILE)
@@ -51,6 +52,7 @@ class rtmaps_python(BaseComponent):
         self.tracker = Tracker3D(box_type="Kitti",
                                  tracking_features=False,
                                  config=config)
+        self.time=0
 
 
 # Core() is called every time you have a new inputs available, depending on
@@ -61,6 +63,8 @@ class rtmaps_python(BaseComponent):
         #print("objects",self.inputs["objects"])
         #print("det",self.inputs["det_scores"])
         #print("pose",self.inputs["pose"])
+        timestamp=self.time
+        self.time+=1
         objects = self.inputs["objects"].ioelt.data
         #det_scores = self.inputs["det_scores"].ioelt.data
         pose = self.inputs["pose"].ioelt.data.reshape(4,4)
@@ -71,7 +75,7 @@ class rtmaps_python(BaseComponent):
         #print("pose",pose)
         #print("detscore",pose)
         #print("print",np.array(list(map(lambda real : [real.data.height,real.data.width,real.data.length,real.x,real.y,real.z,real.data.theta],objects)),np.float32),timestamp)
-        bbs, ids = self.tracker.tracking(np.array(list(map(lambda real : [real.data.height,real.data.width,real.data.length,real.x,real.y,real.z,real.data.theta],objects)),np.float32),
+        bbs, ids = self.tracker.tracking(np.array(list(map(lambda real : [real.data.height,real.data.width,real.data.length,real.x,real.y,real.z,np.deg2rad(real.data.theta)],objects)),np.float32),
                                          features=None,
                                          scores=np.array(list(map(lambda real:real.data.confidence,objects)),np.float32),
                                          pose=pose,
@@ -93,7 +97,7 @@ class rtmaps_python(BaseComponent):
             #self.misc3 = 0
             veh = Vehicle()
             veh.kind = 0  # 0 = Car, 1 = Bus, 2 = Truck, 3 = Bike, 4 = Motorcycle
-            veh.theta = box[6]
+            veh.theta = np.rad2deg( box[6])
             #veh.speed = 0.0
             veh.width = box[4]
             veh.height = box[5]

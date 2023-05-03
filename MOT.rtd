@@ -47,8 +47,8 @@
     <Property LongName="DataViewer_1.moveable" Type="0">true</Property>
     <Property LongName="DataViewer_1.hidden" Type="0">false</Property>
     <Property LongName="DataViewer_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1.x" Type="1">135</Property>
-    <Property LongName="DataViewer_1.y" Type="1">505</Property>
+    <Property LongName="DataViewer_1.x" Type="1">338</Property>
+    <Property LongName="DataViewer_1.y" Type="1">586</Property>
     <Property LongName="DataViewer_1.width" Type="1">530</Property>
     <Property LongName="DataViewer_1.height" Type="1">420</Property>
     <Property LongName="DataViewer_1.end_guard" Type="0" SubType="128">true</Property>
@@ -71,7 +71,7 @@
     <Property LongName="DataViewer_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
     <Property LongName="DataViewer_1.hexDisplay" Type="0">false</Property>
     <Property LongName="DataViewer_1.internalState" Type="3" SubType="128"><![CDATA[238;266]]></Property>
-    <Property LongName="DataViewer_1.expandedState" Type="3" SubType="128"><![CDATA[1|PythonBridge_1.objects;0|Info:PythonBridge_1.objects;1|Data:PythonBridge_1.objects;0|[0]:Data:PythonBridge_1.objects;0|Kind:[0]:Data:PythonBridge_1.objects;0|[1]:Data:PythonBridge_1.objects;0|Kind:[1]:Data:PythonBridge_1.objects;0|[2]:Data:PythonBridge_1.objects;0|Kind:[2]:Data:PythonBridge_1.objects;0|[3]:Data:PythonBridge_1.objects;0|Kind:[3]:Data:PythonBridge_1.objects;0|[4]:Data:PythonBridge_1.objects;0|Kind:[4]:Data:PythonBridge_1.objects;0|[5]:Data:PythonBridge_1.objects;0|Kind:[5]:Data:PythonBridge_1.objects;0|[6]:Data:PythonBridge_1.objects;0|Kind:[6]:Data:PythonBridge_1.objects;0|[7]:Data:PythonBridge_1.objects;0|Kind:[7]:Data:PythonBridge_1.objects;0|[8]:Data:PythonBridge_1.objects;0|Kind:[8]:Data:PythonBridge_1.objects;0|[9]:Data:PythonBridge_1.objects;0|Kind:[9]:Data:PythonBridge_1.objects;1|PythonBridge_1.pose;0|Info:PythonBridge_1.pose;1|Data:PythonBridge_1.pose;0|]]></Property>
+    <Property LongName="DataViewer_1.expandedState" Type="3" SubType="128"><![CDATA[1|PythonBridge_1.objects;0|Info:PythonBridge_1.objects;1|Data:PythonBridge_1.objects;0|[0]:Data:PythonBridge_1.objects;0|Kind:[0]:Data:PythonBridge_1.objects;0|[1]:Data:PythonBridge_1.objects;0|Kind:[1]:Data:PythonBridge_1.objects;0|[2]:Data:PythonBridge_1.objects;0|Kind:[2]:Data:PythonBridge_1.objects;0|[3]:Data:PythonBridge_1.objects;0|Kind:[3]:Data:PythonBridge_1.objects;0|[4]:Data:PythonBridge_1.objects;0|Kind:[4]:Data:PythonBridge_1.objects;0|[5]:Data:PythonBridge_1.objects;0|Kind:[5]:Data:PythonBridge_1.objects;0|[6]:Data:PythonBridge_1.objects;0|Kind:[6]:Data:PythonBridge_1.objects;0|[7]:Data:PythonBridge_1.objects;0|Kind:[7]:Data:PythonBridge_1.objects;0|[8]:Data:PythonBridge_1.objects;0|Kind:[8]:Data:PythonBridge_1.objects;0|[9]:Data:PythonBridge_1.objects;0|Kind:[9]:Data:PythonBridge_1.objects;0|[10]:Data:PythonBridge_1.objects;0|Kind:[10]:Data:PythonBridge_1.objects;0|[11]:Data:PythonBridge_1.objects;0|Kind:[11]:Data:PythonBridge_1.objects;0|[12]:Data:PythonBridge_1.objects;0|Kind:[12]:Data:PythonBridge_1.objects;0|[13]:Data:PythonBridge_1.objects;0|Kind:[13]:Data:PythonBridge_1.objects;0|[14]:Data:PythonBridge_1.objects;0|Kind:[14]:Data:PythonBridge_1.objects;0|[15]:Data:PythonBridge_1.objects;0|Kind:[15]:Data:PythonBridge_1.objects;1|PythonBridge_1.pose;0|Info:PythonBridge_1.pose;1|Data:PythonBridge_1.pose;0|]]></Property>
     <ReadOnlyProperty LongName="DataViewer_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
     <Property LongName="DataViewer_1.threaded" Type="0">true</Property>
     <Property LongName="DataViewer_1.priority" Type="1">128</Property>
@@ -98,8 +98,8 @@
     <Property LongName="DataViewer_1_1.moveable" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.hidden" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1_1.x" Type="1">142</Property>
-    <Property LongName="DataViewer_1_1.y" Type="1">520</Property>
+    <Property LongName="DataViewer_1_1.x" Type="1">561</Property>
+    <Property LongName="DataViewer_1_1.y" Type="1">575</Property>
     <Property LongName="DataViewer_1_1.width" Type="1">530</Property>
     <Property LongName="DataViewer_1_1.height" Type="1">420</Property>
     <Property LongName="DataViewer_1_1.end_guard" Type="0" SubType="128">true</Property>
@@ -122,7 +122,7 @@
     <Property LongName="DataViewer_1_1.unsignedInteger64Format" Type="3"><![CDATA[%lu]]></Property>
     <Property LongName="DataViewer_1_1.hexDisplay" Type="0">false</Property>
     <Property LongName="DataViewer_1_1.internalState" Type="3" SubType="128"><![CDATA[238;266]]></Property>
-    <Property LongName="DataViewer_1_1.expandedState" Type="3" SubType="128"><![CDATA[1|MOT.oobjects;0|Info:MOT.oobjects;1|Data:MOT.oobjects;0|[0]:Data:MOT.oobjects;0|Kind:[0]:Data:MOT.oobjects;0|[1]:Data:MOT.oobjects;0|Kind:[1]:Data:MOT.oobjects;0|[2]:Data:MOT.oobjects;0|Kind:[2]:Data:MOT.oobjects;0|[3]:Data:MOT.oobjects;0|Kind:[3]:Data:MOT.oobjects;0|[4]:Data:MOT.oobjects;0|Kind:[4]:Data:MOT.oobjects;0|[5]:Data:MOT.oobjects;0|Kind:[5]:Data:MOT.oobjects;0|[6]:Data:MOT.oobjects;0|Kind:[6]:Data:MOT.oobjects;0|[7]:Data:MOT.oobjects;0|Kind:[7]:Data:MOT.oobjects;0|[8]:Data:MOT.oobjects;0|Kind:[8]:Data:MOT.oobjects;0|[9]:Data:MOT.oobjects;0|Kind:[9]:Data:MOT.oobjects;1|PythonBridge_1.pose;0|Info:PythonBridge_1.pose;1|Data:PythonBridge_1.pose;0|]]></Property>
+    <Property LongName="DataViewer_1_1.expandedState" Type="3" SubType="128"><![CDATA[1|MOT.oobjects;0|Info:MOT.oobjects;1|Data:MOT.oobjects;0|[0]:Data:MOT.oobjects;0|Kind:[0]:Data:MOT.oobjects;0|[1]:Data:MOT.oobjects;0|Kind:[1]:Data:MOT.oobjects;0|[2]:Data:MOT.oobjects;0|Kind:[2]:Data:MOT.oobjects;0|[3]:Data:MOT.oobjects;0|Kind:[3]:Data:MOT.oobjects;0|[4]:Data:MOT.oobjects;0|Kind:[4]:Data:MOT.oobjects;0|[5]:Data:MOT.oobjects;0|Kind:[5]:Data:MOT.oobjects;0|[6]:Data:MOT.oobjects;0|Kind:[6]:Data:MOT.oobjects;0|[7]:Data:MOT.oobjects;0|Kind:[7]:Data:MOT.oobjects;0|[8]:Data:MOT.oobjects;0|Kind:[8]:Data:MOT.oobjects;0|[9]:Data:MOT.oobjects;0|Kind:[9]:Data:MOT.oobjects;0|[10]:Data:MOT.oobjects;0|Kind:[10]:Data:MOT.oobjects;0|[11]:Data:MOT.oobjects;0|Kind:[11]:Data:MOT.oobjects;0|[12]:Data:MOT.oobjects;0|Kind:[12]:Data:MOT.oobjects;0|[13]:Data:MOT.oobjects;0|Kind:[13]:Data:MOT.oobjects;0|[14]:Data:MOT.oobjects;0|Kind:[14]:Data:MOT.oobjects;0|[15]:Data:MOT.oobjects;0|Kind:[15]:Data:MOT.oobjects;1|PythonBridge_1.pose;0|Info:PythonBridge_1.pose;1|Data:PythonBridge_1.pose;0|]]></Property>
     <ReadOnlyProperty LongName="DataViewer_1_1.specific_end_config" Type="0" SubType="512">true</ReadOnlyProperty>
     <Property LongName="DataViewer_1_1.threaded" Type="0">true</Property>
     <Property LongName="DataViewer_1_1.priority" Type="1">128</Property>
@@ -149,8 +149,8 @@
     <Property LongName="DataViewer_1_2.moveable" Type="0">true</Property>
     <Property LongName="DataViewer_1_2.hidden" Type="0">false</Property>
     <Property LongName="DataViewer_1_2.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="DataViewer_1_2.x" Type="1">147</Property>
-    <Property LongName="DataViewer_1_2.y" Type="1">461</Property>
+    <Property LongName="DataViewer_1_2.x" Type="1">443</Property>
+    <Property LongName="DataViewer_1_2.y" Type="1">523</Property>
     <Property LongName="DataViewer_1_2.width" Type="1">530</Property>
     <Property LongName="DataViewer_1_2.height" Type="1">420</Property>
     <Property LongName="DataViewer_1_2.end_guard" Type="0" SubType="128">true</Property>
@@ -179,6 +179,159 @@
     <Property LongName="DataViewer_1_2.priority" Type="1">128</Property>
     <Property LongName="DataViewer_1_2.autoStart" Type="0">true</Property>
   </Component>
+  <Component InstanceName="detectionAndFusion" Model="GL2_3D_Viewer" Version="1.57.2" x="1256" y="208" z="0">
+    <Input LongName="detectionAndFusion.real_objects_2" Name="real_objects_2">
+      <Property LongName="detectionAndFusion.real_objects_2.readerType" Type="1">2</Property>
+      <Property LongName="detectionAndFusion.real_objects_2.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="detectionAndFusion.real_objects_3" Name="real_objects_3">
+      <Property LongName="detectionAndFusion.real_objects_3.readerType" Type="1">2</Property>
+      <Property LongName="detectionAndFusion.real_objects_3.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="detectionAndFusion.object_4_data" Name="object_4_data">
+      <Property LongName="detectionAndFusion.object_4_data.readerType" Type="1">2</Property>
+      <Property LongName="detectionAndFusion.object_4_data.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="detectionAndFusion.camera" Name="camera">
+      <Property LongName="detectionAndFusion.camera.readerType" Type="1">4</Property>
+      <Property LongName="detectionAndFusion.camera.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="detectionAndFusion.projectionMatrix" Name="projectionMatrix">
+      <Property LongName="detectionAndFusion.projectionMatrix.readerType" Type="1">2</Property>
+      <Property LongName="detectionAndFusion.projectionMatrix.subsampling" Type="1">1</Property>
+    </Input>
+    <Input LongName="detectionAndFusion.triggerRefresh" Name="triggerRefresh">
+      <Property LongName="detectionAndFusion.triggerRefresh.readerType" Type="1">0</Property>
+      <Property LongName="detectionAndFusion.triggerRefresh.subsampling" Type="1">1</Property>
+    </Input>
+    <ReadOnlyProperty LongName="detectionAndFusion.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.nbObjects" Type="1">5</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.object_0_class" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="detectionAndFusion.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+]]></Property>
+    <Property LongName="detectionAndFusion.object_0_width" Type="2">100</Property>
+    <Property LongName="detectionAndFusion.object_0_height" Type="2">100</Property>
+    <Property LongName="detectionAndFusion.object_0_padding" Type="2">1</Property>
+    <Property LongName="detectionAndFusion.object_0_color" Type="1" SubType="4">0</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.object_1_class" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.object_1_type" Type="4"><![CDATA[25|11|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="detectionAndFusion.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+]]></Property>
+    <Property LongName="detectionAndFusion.object_1_axis_length" Type="2">1</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_2_subsection_begin" Type="3" SubType="256"><![CDATA[Object 2]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.object_2_class" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.object_2_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="detectionAndFusion.object_2_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.object_2_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+]]></Property>
+    <Property LongName="detectionAndFusion.object_2_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
+    <Property LongName="detectionAndFusion.object_2_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="detectionAndFusion.object_2_persistence" Type="1" SubType="1">-1</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_2_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_3_subsection_begin" Type="3" SubType="256"><![CDATA[Object 3]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.object_3_class" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.object_3_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="detectionAndFusion.object_3_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.object_3_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+]]></Property>
+    <Property LongName="detectionAndFusion.object_3_shape" Type="4"><![CDATA[4|3|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
+    <Property LongName="detectionAndFusion.object_3_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="detectionAndFusion.object_3_persistence" Type="1" SubType="1">-1</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_3_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_4_subsection_begin" Type="3" SubType="256"><![CDATA[Object 4]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.object_4_class" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.object_4_type" Type="4"><![CDATA[25|0|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="detectionAndFusion.object_4_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.object_4_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+0.0 1.0 0.0 0.0
+0.0 0.0 1.0 0.0
+0.0 0.0 0.0 1.0
+]]></Property>
+    <Property LongName="detectionAndFusion.object_4_nb_samples" Type="1">1</Property>
+    <Property LongName="detectionAndFusion.object_4_color" Type="1" SubType="4">16777215</Property>
+    <Property LongName="detectionAndFusion.object_4_size" Type="2">1</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.object_4_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
+    <Property LongName="detectionAndFusion.nbClasses" Type="1">1</Property>
+    <Property LongName="detectionAndFusion.class_0_enabled" Type="0">true</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
+    <Property LongName="detectionAndFusion.lighting_ambient_intensity" Type="2">0.1000000015</Property>
+    <Property LongName="detectionAndFusion.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
+    <Property LongName="detectionAndFusion.lighting_attenuation" Type="2">9.999999747e-05</Property>
+    <Property LongName="detectionAndFusion.lighting_sqr_attenuation" Type="0">false</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.background_color" Type="1" SubType="4">8388608</Property>
+    <Property LongName="detectionAndFusion.wireframe_rendering" Type="0">false</Property>
+    <Property LongName="detectionAndFusion.display_axis" Type="0">true</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="detectionAndFusion.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
+    <Property LongName="detectionAndFusion.zFocus" Type="2">1</Property>
+    <Property LongName="detectionAndFusion.eyeDistance" Type="2">0.009999999776</Property>
+    <Property LongName="detectionAndFusion.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
+    <Property LongName="detectionAndFusion.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
+    <Property LongName="detectionAndFusion.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
+    <Property LongName="detectionAndFusion.camera_target" Type="1">0</Property>
+    <Property LongName="detectionAndFusion.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
+    <Property LongName="detectionAndFusion.zNear" Type="2">1</Property>
+    <Property LongName="detectionAndFusion.zFar" Type="2">10000</Property>
+    <Property LongName="detectionAndFusion.fovy" Type="2">45</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="detectionAndFusion.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.title" Type="3"><![CDATA[]]></Property>
+    <Property LongName="detectionAndFusion.left" Type="1">519</Property>
+    <Property LongName="detectionAndFusion.top" Type="1">280</Property>
+    <Property LongName="detectionAndFusion.width" Type="1">627</Property>
+    <Property LongName="detectionAndFusion.height" Type="1">471</Property>
+    <Property LongName="detectionAndFusion.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
+    <Property LongName="detectionAndFusion.sequentialRender" Type="0">false</Property>
+    <Property LongName="detectionAndFusion.keepWindowAspectRatio" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.updateWinGeomOnDeath" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.alwaysOnTop" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.fullscreen" Type="0">false</Property>
+    <Property LongName="detectionAndFusion.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
+    <Property LongName="detectionAndFusion.onscreen" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.offscreen" Type="0">false</Property>
+    <Property LongName="detectionAndFusion.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
+    <Property LongName="detectionAndFusion.displayTitleBar" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.displayBorders" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
+    <Property LongName="detectionAndFusion.refresh_period" Type="1">50000</Property>
+    <Property LongName="detectionAndFusion.verbose" Type="0">false</Property>
+    <ReadOnlyProperty LongName="detectionAndFusion.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <Property LongName="detectionAndFusion.threaded" Type="0">true</Property>
+    <Property LongName="detectionAndFusion.priority" Type="1">128</Property>
+    <Property LongName="detectionAndFusion.autoStart" Type="0">true</Property>
+  </Component>
   <Component InstanceName="Devectorizer_1" Model="Devectorizer" Version="1.3.2" x="1176" y="40" z="0">
     <Input LongName="Devectorizer_1.iVector" Name="iVector">
       <Property LongName="Devectorizer_1.iVector.readerType" Type="1">0</Property>
@@ -194,357 +347,221 @@
     <Property LongName="Devectorizer_1.priority" Type="1">128</Property>
     <Property LongName="Devectorizer_1.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="GL2_3D_Viewer_1" Model="GL2_3D_Viewer" Version="1.57.2" x="1432" y="216" z="0">
-    <Input LongName="GL2_3D_Viewer_1.real_objects_1" Name="real_objects_1">
-      <Property LongName="GL2_3D_Viewer_1.real_objects_1.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1.real_objects_1.subsampling" Type="1">1</Property>
+  <Component InstanceName="Fusion" Model="GL2_3D_Viewer" Version="1.57.2" x="1432" y="312" z="0">
+    <Input LongName="Fusion.real_objects_1" Name="real_objects_1">
+      <Property LongName="Fusion.real_objects_1.readerType" Type="1">2</Property>
+      <Property LongName="Fusion.real_objects_1.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1.camera" Name="camera">
-      <Property LongName="GL2_3D_Viewer_1.camera.readerType" Type="1">4</Property>
-      <Property LongName="GL2_3D_Viewer_1.camera.subsampling" Type="1">1</Property>
+    <Input LongName="Fusion.camera" Name="camera">
+      <Property LongName="Fusion.camera.readerType" Type="1">4</Property>
+      <Property LongName="Fusion.camera.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1.projectionMatrix" Name="projectionMatrix">
-      <Property LongName="GL2_3D_Viewer_1.projectionMatrix.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1.projectionMatrix.subsampling" Type="1">1</Property>
+    <Input LongName="Fusion.projectionMatrix" Name="projectionMatrix">
+      <Property LongName="Fusion.projectionMatrix.readerType" Type="1">2</Property>
+      <Property LongName="Fusion.projectionMatrix.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1.triggerRefresh" Name="triggerRefresh">
-      <Property LongName="GL2_3D_Viewer_1.triggerRefresh.readerType" Type="1">0</Property>
-      <Property LongName="GL2_3D_Viewer_1.triggerRefresh.subsampling" Type="1">1</Property>
+    <Input LongName="Fusion.triggerRefresh" Name="triggerRefresh">
+      <Property LongName="Fusion.triggerRefresh.readerType" Type="1">0</Property>
+      <Property LongName="Fusion.triggerRefresh.subsampling" Type="1">1</Property>
     </Input>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.nbObjects" Type="1">2</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.object_0_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+    <ReadOnlyProperty LongName="Fusion.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
+    <Property LongName="Fusion.nbObjects" Type="1">2</Property>
+    <ReadOnlyProperty LongName="Fusion.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
+    <Property LongName="Fusion.object_0_class" Type="1">0</Property>
+    <Property LongName="Fusion.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="Fusion.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="Fusion.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
 0.0 1.0 0.0 0.0
 0.0 0.0 1.0 0.0
 0.0 0.0 0.0 1.0
 ]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_width" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_height" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_padding" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1.object_0_color" Type="1" SubType="4">0</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.object_1_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+    <Property LongName="Fusion.object_0_width" Type="2">100</Property>
+    <Property LongName="Fusion.object_0_height" Type="2">100</Property>
+    <Property LongName="Fusion.object_0_padding" Type="2">1</Property>
+    <Property LongName="Fusion.object_0_color" Type="1" SubType="4">0</Property>
+    <ReadOnlyProperty LongName="Fusion.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
+    <Property LongName="Fusion.object_1_class" Type="1">0</Property>
+    <Property LongName="Fusion.object_1_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="Fusion.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="Fusion.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
 0.0 1.0 0.0 0.0
 0.0 0.0 1.0 0.0
 0.0 0.0 0.0 1.0
 ]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.object_1_persistence" Type="1" SubType="1">-1</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.nbClasses" Type="1">1</Property>
-    <Property LongName="GL2_3D_Viewer_1.class_0_enabled" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.lighting_ambient_intensity" Type="2">0.1000000015</Property>
-    <Property LongName="GL2_3D_Viewer_1.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
-    <Property LongName="GL2_3D_Viewer_1.lighting_attenuation" Type="2">9.999999747e-05</Property>
-    <Property LongName="GL2_3D_Viewer_1.lighting_sqr_attenuation" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.background_color" Type="1" SubType="4">8388608</Property>
-    <Property LongName="GL2_3D_Viewer_1.wireframe_rendering" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1.display_axis" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.zFocus" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1.eyeDistance" Type="2">0.009999999776</Property>
-    <Property LongName="GL2_3D_Viewer_1.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.camera_target" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.zNear" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1.zFar" Type="2">10000</Property>
-    <Property LongName="GL2_3D_Viewer_1.fovy" Type="2">45</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.left" Type="1">1187</Property>
-    <Property LongName="GL2_3D_Viewer_1.top" Type="1">550</Property>
-    <Property LongName="GL2_3D_Viewer_1.width" Type="1">640</Property>
-    <Property LongName="GL2_3D_Viewer_1.height" Type="1">480</Property>
-    <Property LongName="GL2_3D_Viewer_1.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.sequentialRender" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1.keepWindowAspectRatio" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.updateWinGeomOnDeath" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.alwaysOnTop" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.fullscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.onscreen" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.offscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.displayTitleBar" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.displayBorders" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
-    <Property LongName="GL2_3D_Viewer_1.refresh_period" Type="1">50000</Property>
-    <Property LongName="GL2_3D_Viewer_1.verbose" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1.threaded" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1.priority" Type="1">128</Property>
-    <Property LongName="GL2_3D_Viewer_1.autoStart" Type="0">true</Property>
+    <Property LongName="Fusion.object_1_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
+    <Property LongName="Fusion.object_1_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="Fusion.object_1_persistence" Type="1" SubType="1">-1</Property>
+    <ReadOnlyProperty LongName="Fusion.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
+    <Property LongName="Fusion.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
+    <Property LongName="Fusion.nbClasses" Type="1">1</Property>
+    <Property LongName="Fusion.class_0_enabled" Type="0">true</Property>
+    <ReadOnlyProperty LongName="Fusion.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
+    <Property LongName="Fusion.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
+    <Property LongName="Fusion.lighting_ambient_intensity" Type="2">0.1000000015</Property>
+    <Property LongName="Fusion.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
+    <Property LongName="Fusion.lighting_attenuation" Type="2">9.999999747e-05</Property>
+    <Property LongName="Fusion.lighting_sqr_attenuation" Type="0">false</Property>
+    <ReadOnlyProperty LongName="Fusion.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
+    <Property LongName="Fusion.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
+    <ReadOnlyProperty LongName="Fusion.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
+    <Property LongName="Fusion.background_color" Type="1" SubType="4">8388608</Property>
+    <Property LongName="Fusion.wireframe_rendering" Type="0">false</Property>
+    <Property LongName="Fusion.display_axis" Type="0">true</Property>
+    <ReadOnlyProperty LongName="Fusion.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
+    <Property LongName="Fusion.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="Fusion.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
+    <Property LongName="Fusion.zFocus" Type="2">1</Property>
+    <Property LongName="Fusion.eyeDistance" Type="2">0.009999999776</Property>
+    <Property LongName="Fusion.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
+    <Property LongName="Fusion.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
+    <Property LongName="Fusion.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
+    <Property LongName="Fusion.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
+    <Property LongName="Fusion.camera_target" Type="1">0</Property>
+    <Property LongName="Fusion.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
+    <Property LongName="Fusion.zNear" Type="2">1</Property>
+    <Property LongName="Fusion.zFar" Type="2">10000</Property>
+    <Property LongName="Fusion.fovy" Type="2">45</Property>
+    <ReadOnlyProperty LongName="Fusion.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="Fusion.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
+    <Property LongName="Fusion.title" Type="3"><![CDATA[]]></Property>
+    <Property LongName="Fusion.left" Type="1">840</Property>
+    <Property LongName="Fusion.top" Type="1">179</Property>
+    <Property LongName="Fusion.width" Type="1">799</Property>
+    <Property LongName="Fusion.height" Type="1">600</Property>
+    <Property LongName="Fusion.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
+    <Property LongName="Fusion.sequentialRender" Type="0">false</Property>
+    <Property LongName="Fusion.keepWindowAspectRatio" Type="0">true</Property>
+    <Property LongName="Fusion.updateWinGeomOnDeath" Type="0">true</Property>
+    <Property LongName="Fusion.alwaysOnTop" Type="0">true</Property>
+    <Property LongName="Fusion.fullscreen" Type="0">false</Property>
+    <Property LongName="Fusion.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
+    <Property LongName="Fusion.onscreen" Type="0">true</Property>
+    <Property LongName="Fusion.offscreen" Type="0">false</Property>
+    <Property LongName="Fusion.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
+    <Property LongName="Fusion.displayTitleBar" Type="0">true</Property>
+    <Property LongName="Fusion.displayBorders" Type="0">true</Property>
+    <Property LongName="Fusion.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
+    <Property LongName="Fusion.refresh_period" Type="1">50000</Property>
+    <Property LongName="Fusion.verbose" Type="0">false</Property>
+    <ReadOnlyProperty LongName="Fusion.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <Property LongName="Fusion.threaded" Type="0">true</Property>
+    <Property LongName="Fusion.priority" Type="1">128</Property>
+    <Property LongName="Fusion.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="GL2_3D_Viewer_1_1" Model="GL2_3D_Viewer" Version="1.57.2" x="1368" y="376" z="0">
-    <Input LongName="GL2_3D_Viewer_1_1.real_objects_1" Name="real_objects_1">
-      <Property LongName="GL2_3D_Viewer_1_1.real_objects_1.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1_1.real_objects_1.subsampling" Type="1">1</Property>
+  <Component InstanceName="FusionUnregisterd" Model="GL2_3D_Viewer" Version="1.57.2" x="1440" y="160" z="0">
+    <Input LongName="FusionUnregisterd.real_objects_1" Name="real_objects_1">
+      <Property LongName="FusionUnregisterd.real_objects_1.readerType" Type="1">2</Property>
+      <Property LongName="FusionUnregisterd.real_objects_1.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1_1.camera" Name="camera">
-      <Property LongName="GL2_3D_Viewer_1_1.camera.readerType" Type="1">4</Property>
-      <Property LongName="GL2_3D_Viewer_1_1.camera.subsampling" Type="1">1</Property>
+    <Input LongName="FusionUnregisterd.camera" Name="camera">
+      <Property LongName="FusionUnregisterd.camera.readerType" Type="1">4</Property>
+      <Property LongName="FusionUnregisterd.camera.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1_1.projectionMatrix" Name="projectionMatrix">
-      <Property LongName="GL2_3D_Viewer_1_1.projectionMatrix.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1_1.projectionMatrix.subsampling" Type="1">1</Property>
+    <Input LongName="FusionUnregisterd.projectionMatrix" Name="projectionMatrix">
+      <Property LongName="FusionUnregisterd.projectionMatrix.readerType" Type="1">2</Property>
+      <Property LongName="FusionUnregisterd.projectionMatrix.subsampling" Type="1">1</Property>
     </Input>
-    <Input LongName="GL2_3D_Viewer_1_1.triggerRefresh" Name="triggerRefresh">
-      <Property LongName="GL2_3D_Viewer_1_1.triggerRefresh.readerType" Type="1">0</Property>
-      <Property LongName="GL2_3D_Viewer_1_1.triggerRefresh.subsampling" Type="1">1</Property>
+    <Input LongName="FusionUnregisterd.triggerRefresh" Name="triggerRefresh">
+      <Property LongName="FusionUnregisterd.triggerRefresh.readerType" Type="1">0</Property>
+      <Property LongName="FusionUnregisterd.triggerRefresh.subsampling" Type="1">1</Property>
     </Input>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.nbObjects" Type="1">2</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+    <ReadOnlyProperty LongName="FusionUnregisterd.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.nbObjects" Type="1">2</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.object_0_class" Type="1">0</Property>
+    <Property LongName="FusionUnregisterd.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="FusionUnregisterd.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="FusionUnregisterd.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
 0.0 1.0 0.0 0.0
 0.0 0.0 1.0 0.0
 0.0 0.0 0.0 1.0
 ]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_width" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_height" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_padding" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_0_color" Type="1" SubType="4">0</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
+    <Property LongName="FusionUnregisterd.object_0_width" Type="2">100</Property>
+    <Property LongName="FusionUnregisterd.object_0_height" Type="2">100</Property>
+    <Property LongName="FusionUnregisterd.object_0_padding" Type="2">1</Property>
+    <Property LongName="FusionUnregisterd.object_0_color" Type="1" SubType="4">0</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.object_1_class" Type="1">0</Property>
+    <Property LongName="FusionUnregisterd.object_1_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
+    <Property LongName="FusionUnregisterd.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
+    <Property LongName="FusionUnregisterd.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
 0.0 1.0 0.0 0.0
 0.0 0.0 1.0 0.0
 0.0 0.0 0.0 1.0
 ]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.object_1_persistence" Type="1" SubType="1">-1</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.nbClasses" Type="1">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.class_0_enabled" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.lighting_ambient_intensity" Type="2">0.1000000015</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.lighting_attenuation" Type="2">9.999999747e-05</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.lighting_sqr_attenuation" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.background_color" Type="1" SubType="4">8388608</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.wireframe_rendering" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.display_axis" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.zFocus" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.eyeDistance" Type="2">0.009999999776</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.camera_target" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.zNear" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.zFar" Type="2">10000</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.fovy" Type="2">45</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.left" Type="1">768</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.top" Type="1">399</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.width" Type="1">640</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.height" Type="1">480</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.sequentialRender" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.keepWindowAspectRatio" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.updateWinGeomOnDeath" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.alwaysOnTop" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.fullscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.onscreen" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.offscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.displayTitleBar" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.displayBorders" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_1.refresh_period" Type="1">50000</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.verbose" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_1.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_1.threaded" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.priority" Type="1">128</Property>
-    <Property LongName="GL2_3D_Viewer_1_1.autoStart" Type="0">true</Property>
-  </Component>
-  <Component InstanceName="GL2_3D_Viewer_1_2" Model="GL2_3D_Viewer" Version="1.57.2" x="1256" y="168" z="0">
-    <Input LongName="GL2_3D_Viewer_1_2.real_objects_2" Name="real_objects_2">
-      <Property LongName="GL2_3D_Viewer_1_2.real_objects_2.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1_2.real_objects_2.subsampling" Type="1">1</Property>
-    </Input>
-    <Input LongName="GL2_3D_Viewer_1_2.real_objects_3" Name="real_objects_3">
-      <Property LongName="GL2_3D_Viewer_1_2.real_objects_3.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1_2.real_objects_3.subsampling" Type="1">1</Property>
-    </Input>
-    <Input LongName="GL2_3D_Viewer_1_2.camera" Name="camera">
-      <Property LongName="GL2_3D_Viewer_1_2.camera.readerType" Type="1">4</Property>
-      <Property LongName="GL2_3D_Viewer_1_2.camera.subsampling" Type="1">1</Property>
-    </Input>
-    <Input LongName="GL2_3D_Viewer_1_2.projectionMatrix" Name="projectionMatrix">
-      <Property LongName="GL2_3D_Viewer_1_2.projectionMatrix.readerType" Type="1">2</Property>
-      <Property LongName="GL2_3D_Viewer_1_2.projectionMatrix.subsampling" Type="1">1</Property>
-    </Input>
-    <Input LongName="GL2_3D_Viewer_1_2.triggerRefresh" Name="triggerRefresh">
-      <Property LongName="GL2_3D_Viewer_1_2.triggerRefresh.readerType" Type="1">0</Property>
-      <Property LongName="GL2_3D_Viewer_1_2.triggerRefresh.subsampling" Type="1">1</Property>
-    </Input>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.objects_subsection_begin" Type="3" SubType="256"><![CDATA[Objects]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.nbObjects" Type="1">4</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_0_subsection_begin" Type="3" SubType="256"><![CDATA[Object 0]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_type" Type="4"><![CDATA[25|13|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
-0.0 1.0 0.0 0.0
-0.0 0.0 1.0 0.0
-0.0 0.0 0.0 1.0
-]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_width" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_height" Type="2">100</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_padding" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_0_color" Type="1" SubType="4">0</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_0_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_1_subsection_begin" Type="3" SubType="256"><![CDATA[Object 1]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.object_1_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_1_type" Type="4"><![CDATA[25|11|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_1_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_1_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
-0.0 1.0 0.0 0.0
-0.0 0.0 1.0 0.0
-0.0 0.0 0.0 1.0
-]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_1_axis_length" Type="2">1</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_2_subsection_begin" Type="3" SubType="256"><![CDATA[Object 2]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
-0.0 1.0 0.0 0.0
-0.0 0.0 1.0 0.0
-0.0 0.0 0.0 1.0
-]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_shape" Type="4"><![CDATA[4|3|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_2_persistence" Type="1" SubType="1">-1</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_2_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_3_subsection_begin" Type="3" SubType="256"><![CDATA[Object 3]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_class" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_type" Type="4"><![CDATA[25|14|PointCloud|ColoredPointCloud|PointCloud (to be colorized)|Lines|ColoredLines|Triangles|ColoredTriangles|TexturedTriangles|Quads|ColoredQuads|TexturedQuads|Axis|Cube|Grid|RealObjects|Sphere|TexturedWall|Trajectory|File|Plugin|PolarGrid|Wireframe Cube|PlanarPointCloud|PlanarColoredPointCloud|PlanarPointCloud (to be colorized)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_transform" Type="4"><![CDATA[3|0|Matrix|Position Attitude Scale|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_matrix" Type="3"><![CDATA[1.0 0.0 0.0 0.0
-0.0 1.0 0.0 0.0
-0.0 0.0 1.0 0.0
-0.0 0.0 0.0 1.0
-]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.object_3_persistence" Type="1" SubType="1">-1</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.object_3_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.nbClasses" Type="1">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.class_0_enabled" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.lighting_ambient_intensity" Type="2">0.1000000015</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.lighting_attenuation" Type="2">9.999999747e-05</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.lighting_sqr_attenuation" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.background_color" Type="1" SubType="4">8388608</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.wireframe_rendering" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.display_axis" Type="0">true</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.zFocus" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.eyeDistance" Type="2">0.009999999776</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.camera_target" Type="1">0</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.zNear" Type="2">1</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.zFar" Type="2">10000</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.fovy" Type="2">45</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.left" Type="1">256</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.top" Type="1">439</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.width" Type="1">640</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.height" Type="1">480</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.sequentialRender" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.keepWindowAspectRatio" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.updateWinGeomOnDeath" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.alwaysOnTop" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.fullscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.onscreen" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.offscreen" Type="0">false</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.displayTitleBar" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.displayBorders" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
-    <Property LongName="GL2_3D_Viewer_1_2.refresh_period" Type="1">50000</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.verbose" Type="0">false</Property>
-    <ReadOnlyProperty LongName="GL2_3D_Viewer_1_2.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
-    <Property LongName="GL2_3D_Viewer_1_2.threaded" Type="0">true</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.priority" Type="1">128</Property>
-    <Property LongName="GL2_3D_Viewer_1_2.autoStart" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.object_1_shape" Type="4"><![CDATA[4|0|Cube|Pyramid|Sphere|Wireframe Cube]]></Property>
+    <Property LongName="FusionUnregisterd.object_1_cfg_file" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="FusionUnregisterd.object_1_persistence" Type="1" SubType="1">-1</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.object_1_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.objects_subsection_end" Type="0" SubType="512">true</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.classes_subsection_begin" Type="3" SubType="256"><![CDATA[Classes]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.classEnabledSource" Type="4"><![CDATA[2|0|Properties|Input]]></Property>
+    <Property LongName="FusionUnregisterd.nbClasses" Type="1">1</Property>
+    <Property LongName="FusionUnregisterd.class_0_enabled" Type="0">true</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.classes_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.lighting_subsection_begin" Type="3" SubType="256"><![CDATA[Lighting]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.lighting_model" Type="4"><![CDATA[5|0|Ambient|Diffuse|Phong|BlinnPhong|Gaussian]]></Property>
+    <Property LongName="FusionUnregisterd.lighting_ambient_intensity" Type="2">0.1000000015</Property>
+    <Property LongName="FusionUnregisterd.lighting_ambient_color" Type="1" SubType="4">16777215</Property>
+    <Property LongName="FusionUnregisterd.lighting_attenuation" Type="2">9.999999747e-05</Property>
+    <Property LongName="FusionUnregisterd.lighting_sqr_attenuation" Type="0">false</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.lighting_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.postproc_subsection_begin" Type="3" SubType="256"><![CDATA[Post-Processing]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.postprocessing_mode" Type="4"><![CDATA[3|0|None|Eye-Dome Lighting|Depth]]></Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.postproc_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.scene_subsection_begin" Type="3" SubType="256"><![CDATA[Scene]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.background_color" Type="1" SubType="4">8388608</Property>
+    <Property LongName="FusionUnregisterd.wireframe_rendering" Type="0">false</Property>
+    <Property LongName="FusionUnregisterd.display_axis" Type="0">true</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.scene_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.viewport_subsection_begin" Type="3" SubType="256"><![CDATA[Viewport]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.viewportPlugin" Type="3" SubType="80"><![CDATA[]]></Property>
+    <Property LongName="FusionUnregisterd.cameraType" Type="4"><![CDATA[7|0|Standard|Anaglyph (red-blue)|Anaglyph (red-cyan)|Anaglyph (red-green)|Anaglyph (blue-red)|Anaglyph (cyan-red)|Anaglyph (green-red)]]></Property>
+    <Property LongName="FusionUnregisterd.zFocus" Type="2">1</Property>
+    <Property LongName="FusionUnregisterd.eyeDistance" Type="2">0.009999999776</Property>
+    <Property LongName="FusionUnregisterd.camera_mode" Type="4"><![CDATA[5|3|Fixed|Key Switcher|Orbiter|Trackball|Input Matrix]]></Property>
+    <Property LongName="FusionUnregisterd.camera_position" Type="3"><![CDATA[-10.0 0.0 10.0]]></Property>
+    <Property LongName="FusionUnregisterd.camera_look_at" Type="3"><![CDATA[10.0 0.0 0.0]]></Property>
+    <Property LongName="FusionUnregisterd.camera_up" Type="3"><![CDATA[0.0 0.0 1.0]]></Property>
+    <Property LongName="FusionUnregisterd.camera_target" Type="1">0</Property>
+    <Property LongName="FusionUnregisterd.projection" Type="4"><![CDATA[3|0|Perspective|Orthogonal|Input Matrix]]></Property>
+    <Property LongName="FusionUnregisterd.zNear" Type="2">1</Property>
+    <Property LongName="FusionUnregisterd.zFar" Type="2">10000</Property>
+    <Property LongName="FusionUnregisterd.fovy" Type="2">45</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="FusionUnregisterd.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.title" Type="3"><![CDATA[]]></Property>
+    <Property LongName="FusionUnregisterd.left" Type="1">65</Property>
+    <Property LongName="FusionUnregisterd.top" Type="1">514</Property>
+    <Property LongName="FusionUnregisterd.width" Type="1">640</Property>
+    <Property LongName="FusionUnregisterd.height" Type="1">480</Property>
+    <Property LongName="FusionUnregisterd.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
+    <Property LongName="FusionUnregisterd.sequentialRender" Type="0">false</Property>
+    <Property LongName="FusionUnregisterd.keepWindowAspectRatio" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.updateWinGeomOnDeath" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.alwaysOnTop" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.fullscreen" Type="0">false</Property>
+    <Property LongName="FusionUnregisterd.monitorForFullscreen" Type="4"><![CDATA[1|0|0 (0, 0, 1920, 1080)]]></Property>
+    <Property LongName="FusionUnregisterd.onscreen" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.offscreen" Type="0">false</Property>
+    <Property LongName="FusionUnregisterd.antialiasing" Type="4"><![CDATA[5|0|None|FSAA 2x|FSAA 4x|FSAA 8x|FSAA 16x]]></Property>
+    <Property LongName="FusionUnregisterd.displayTitleBar" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.displayBorders" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.refresh_mode" Type="4"><![CDATA[3|0|Fixed|On Demand|Input based]]></Property>
+    <Property LongName="FusionUnregisterd.refresh_period" Type="1">50000</Property>
+    <Property LongName="FusionUnregisterd.verbose" Type="0">false</Property>
+    <ReadOnlyProperty LongName="FusionUnregisterd.window_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
+    <Property LongName="FusionUnregisterd.threaded" Type="0">true</Property>
+    <Property LongName="FusionUnregisterd.priority" Type="1">128</Property>
+    <Property LongName="FusionUnregisterd.autoStart" Type="0">true</Property>
   </Component>
   <Component InstanceName="KittiCalibrationParser_1" Model="KittiCalibrationParser" Version="1.3.2" x="920" y="32" z="0">
     <Output LongName="KittiCalibrationParser_1.VelodyneToImage_ProjectionMatrix_3x4" Name="VelodyneToImage_ProjectionMatrix_3x4">
@@ -630,7 +647,7 @@
     <Property LongName="MOT.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="MOT.capturePythonPrint" Type="0">true</Property>
     <Property LongName="MOT.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">1861238</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">1659085</ReadOnlyProperty>
     <Property LongName="MOT.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="MOT.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="MOT.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -667,7 +684,7 @@
     <Property LongName="oxt2gobalPose.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="oxt2gobalPose.capturePythonPrint" Type="0">true</Property>
     <Property LongName="oxt2gobalPose.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">1861252</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">1659099</ReadOnlyProperty>
     <Property LongName="oxt2gobalPose.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="oxt2gobalPose.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="oxt2gobalPose.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -685,7 +702,7 @@
     <Property LongName="oxt2gobalPose.priority" Type="1">128</Property>
     <Property LongName="oxt2gobalPose.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="PythonBridge_1" Model="PythonBridge" Version="4.3.5" x="320" y="288" z="0">
+  <Component InstanceName="PythonBridge_1" Model="PythonBridge" Version="4.3.5" x="320" y="296" z="0">
     <Output LongName="PythonBridge_1.objects" Name="objects">
       <Property LongName="PythonBridge_1.objects.subsampling" Type="1">1</Property>
       <Property LongName="PythonBridge_1.objects.fifosize" Type="1">16</Property>
@@ -706,32 +723,36 @@
       <Property LongName="PythonBridge_1.V2C.fifosize" Type="1">16</Property>
       <Property LongName="PythonBridge_1.V2C.periodic" Type="0">false</Property>
     </Output>
+    <Output LongName="PythonBridge_1.pointCloud" Name="pointCloud">
+      <Property LongName="PythonBridge_1.pointCloud.subsampling" Type="1">1</Property>
+      <Property LongName="PythonBridge_1.pointCloud.fifosize" Type="1">16</Property>
+      <Property LongName="PythonBridge_1.pointCloud.periodic" Type="0">false</Property>
+    </Output>
     <Property LongName="PythonBridge_1.guard_begin" Type="0" SubType="128">true</Property>
     <Property LongName="PythonBridge_1.internalInputs" Type="3" SubType="128"><![CDATA[]]></Property>
-    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;20==;0#pose;10==;0#P2;10==;0#V2C;10==;0]]></Property>
+    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;20==;20#pose;10==;16#P2;10==;0#V2C;10==;0#pointCloud;10==;100000]]></Property>
     <Property LongName="PythonBridge_1.internalProperties" Type="3" SubType="128"><![CDATA[dataset_path||13||/home/lulu/Projects/EcoCar/Data/training||0#seq_id||8||1#detections_path||13||/home/lulu/Projects/EcoCar/Data/detection/virconv/training||0#min_score||11||-0.5]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_begin_configuration" Type="3" SubType="256"><![CDATA[Advanced Configuration]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_1.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_1.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">1861270</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">1810185</ReadOnlyProperty>
     <Property LongName="PythonBridge_1.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_1.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="PythonBridge_1.basic_begin_configuration" Type="3" SubType="256"><![CDATA[Basic Configuration]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.className" Type="3"><![CDATA[rtmaps_python]]></Property>
-    <Property LongName="PythonBridge_1.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3]]></Relative></Property>
+    <Property LongName="PythonBridge_1.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3.10]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3.10]]></Relative></Property>
     <Property LongName="PythonBridge_1.pythonFilename" Type="3" SubType="80"><![CDATA[/home/lulu/Projects/EcoCar/kitti_dataset.bridge.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/kitti_dataset.bridge.py]]></Relative></Property>
     <Property LongName="PythonBridge_1.readingPolicy" Type="4"><![CDATA[5|2|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
     <Property LongName="PythonBridge_1.samplingPeriod" Type="1" SubType="1">400000</Property>
     <Property LongName="PythonBridge_1.inputsBehavior" Type="4"><![CDATA[2|0|AllowEmptyInputs|Wait4AllInputs]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="PythonBridge_1.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_1.userSubsection" Type="3" SubType="256"><![CDATA[User Subsection]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.dataset_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/training]]></Property>
     <Property LongName="PythonBridge_1.seq_id" Type="1">1</Property>
     <Property LongName="PythonBridge_1.detections_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/detection/virconv/training]]></Property>
     <Property LongName="PythonBridge_1.min_score" Type="2">-0.5</Property>
-    <Property LongName="PythonBridge_1.guard_end" Type="0" SubType="128">true</Property>
     <ReadOnlyProperty LongName="PythonBridge_1.userSubsectionEnd" Type="0" SubType="512">true</ReadOnlyProperty>
     <Property LongName="PythonBridge_1.threaded" Type="0">true</Property>
     <Property LongName="PythonBridge_1.priority" Type="1">128</Property>
@@ -760,7 +781,7 @@
     <Property LongName="PythonBridge_2.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_2.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_2.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_2.pythonPID" Type="1">1861292</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_2.pythonPID" Type="1">1659127</ReadOnlyProperty>
     <Property LongName="PythonBridge_2.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_2.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_2.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -803,7 +824,7 @@
     <Property LongName="PythonBridge_3.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_3.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_3.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_3.pythonPID" Type="1">1861354</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_3.pythonPID" Type="1">1666317</ReadOnlyProperty>
     <Property LongName="PythonBridge_3.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_3.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_3.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -822,7 +843,7 @@
     <Property LongName="PythonBridge_3.priority" Type="1">128</Property>
     <Property LongName="PythonBridge_3.autoStart" Type="0">true</Property>
   </Component>
-  <Component InstanceName="PythonBridge_4" Model="PythonBridge" Version="4.3.5" x="1136" y="312" z="0">
+  <Component InstanceName="PythonBridge_4" Model="PythonBridge" Version="4.3.5" x="1088" y="312" z="0">
     <Input LongName="PythonBridge_4.objects" Name="objects">
       <Property LongName="PythonBridge_4.objects.readerType" Type="1">0</Property>
       <Property LongName="PythonBridge_4.objects.subsampling" Type="1">1</Property>
@@ -848,7 +869,7 @@
     <Property LongName="PythonBridge_4.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_4.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_4.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_4.pythonPID" Type="1">1861368</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_4.pythonPID" Type="1">1666645</ReadOnlyProperty>
     <Property LongName="PythonBridge_4.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_4.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_4.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -872,10 +893,11 @@
   <Connection Output="PythonBridge_1.pose" Input="DataViewer_1_1.input_1"/>
   <Connection Output="PythonBridge_1.P2" Input="DataViewer_1_2.input_0"/>
   <Connection Output="PythonBridge_1.V2C" Input="DataViewer_1_2.input_1"/>
-  <Connection Output="PythonBridge_4.oobjects" Input="GL2_3D_Viewer_1.real_objects_1"/>
-  <Connection Output="MOT.oobjects" Input="GL2_3D_Viewer_1_1.real_objects_1"/>
-  <Connection Output="PythonBridge_1.objects" Input="GL2_3D_Viewer_1_2.real_objects_2"/>
-  <Connection Output="PythonBridge_4.oobjects" Input="GL2_3D_Viewer_1_2.real_objects_3"/>
+  <Connection Output="PythonBridge_1.objects" Input="detectionAndFusion.real_objects_2"/>
+  <Connection Output="PythonBridge_4.oobjects" Input="detectionAndFusion.real_objects_3"/>
+  <Connection Output="PythonBridge_1.pointCloud" Input="detectionAndFusion.object_4_data"/>
+  <Connection Output="PythonBridge_4.oobjects" Input="Fusion.real_objects_1"/>
+  <Connection Output="MOT.oobjects" Input="FusionUnregisterd.real_objects_1"/>
   <Connection Output="PythonBridge_1.objects" Input="MOT.objects"/>
   <Connection Output="PythonBridge_1.pose" Input="MOT.pose"/>
   <Connection Output="MOT.oobjects" Input="PythonBridge_3.objects"/>
@@ -904,10 +926,11 @@
     <ConnectionShape InstanceName="DataViewer_1_1.input_1" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_2.input_0" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_2.input_1" color="0"/>
-    <ConnectionShape InstanceName="GL2_3D_Viewer_1.real_objects_1" color="0"/>
-    <ConnectionShape InstanceName="GL2_3D_Viewer_1_1.real_objects_1" color="0"/>
-    <ConnectionShape InstanceName="GL2_3D_Viewer_1_2.real_objects_2" color="0"/>
-    <ConnectionShape InstanceName="GL2_3D_Viewer_1_2.real_objects_3" color="0"/>
+    <ConnectionShape InstanceName="detectionAndFusion.object_4_data" color="0"/>
+    <ConnectionShape InstanceName="detectionAndFusion.real_objects_2" color="0"/>
+    <ConnectionShape InstanceName="detectionAndFusion.real_objects_3" color="0"/>
+    <ConnectionShape InstanceName="Fusion.real_objects_1" color="0"/>
+    <ConnectionShape InstanceName="FusionUnregisterd.real_objects_1" color="0"/>
     <ConnectionShape InstanceName="MOT.objects" color="0"/>
     <ConnectionShape InstanceName="MOT.pose" color="0"/>
     <ConnectionShape InstanceName="PythonBridge_3.calib" color="0"/>

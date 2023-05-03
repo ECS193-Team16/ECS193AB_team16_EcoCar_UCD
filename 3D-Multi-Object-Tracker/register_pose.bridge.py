@@ -74,13 +74,14 @@ def write_one_tick(ts, V2C, pose, objs):
         #updated_state, score = ob, 1
         #print(real)
         box = register_bbs(np.array(
-            [[real.x, real.y, real.z, real.data.length, real.data.width, real.data.height,  real.data.theta]]), pose)
+            [[real.x, real.y, real.z, real.data.length, real.data.width, real.data.height,  np.deg2rad(real.data.theta)]]), pose)
 
-        box[:, 6] = -box[:, 6] - np.pi / 2
-        box[:, 2] -= box[:, 5] / 2
         #box[:, 0:3] = velo_to_cam(box[:, 0:3], V2C)[:, 0:3]
 
         box = box[0]
+
+        box[6] = -box[6] - np.pi / 2
+        box[2] -= box[5] / 2
 
         real.x = box[0]
         real.y = box[1]
@@ -89,7 +90,7 @@ def write_one_tick(ts, V2C, pose, objs):
         #self.misc1 = 0
         #self.misc2 = 0
         #self.misc3 = 0
-        real.data.theta = box[6]
+        real.data.theta = np.rad2deg( box[6])
         #veh.speed = 0.0
         real.data.width = box[4]
         real.data.height = box[5]

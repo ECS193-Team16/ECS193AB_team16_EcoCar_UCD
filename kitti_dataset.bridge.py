@@ -13,7 +13,7 @@ import numpy as np
 from dataset.kitti_data_base import *
 #from dataset.kitti_dataset import KittiTrackingDataset
 from dataset.kitti_data_base import velo_to_cam
-
+#from open3d import *
 #from calib import Calib
 # Python class that will be called from RTMaps.
 
@@ -41,6 +41,13 @@ class rtmaps_python(BaseComponent):
         #self.add_output("det_scores", rtmaps.types.FLOAT32)  # define an input
         self.add_output("P2", rtmaps.types.FLOAT32)
         self.add_output("V2C", rtmaps.types.FLOAT32)
+        #self.add_output("pointCloud", rtmaps.types.FLOAT32)
+
+        self.outputs["objects"].alloc_output_buffer(20)
+        #self.outputs["pointCloud"].alloc_output_buffer(100000)
+        #self.outputs["det_scores"].alloc_output_buffer(20)
+
+        self.outputs["pose"].alloc_output_buffer(16)
 
         self.add_property(
             "dataset_path", "/home/lulu/Projects/EcoCar/Data/training")
@@ -56,13 +63,9 @@ class rtmaps_python(BaseComponent):
         detections_path = self.properties["detections_path"].data
         tracking_type = "Car"
         self.dataset = KittiTrackingDataset(
-            dataset_path, seq_id=seq_id, ob_path=detections_path, type=[tracking_type])
+            dataset_path, seq_id=seq_id, ob_path=detections_path, type=[tracking_type], load_points=True)
         self.time = 0
 
-        self.outputs["objects"].alloc_output_buffer(20)
-        #self.outputs["det_scores"].alloc_output_buffer(20)
-
-        self.outputs["pose"].alloc_output_buffer(16)
         return
         # Start the external binary
 
@@ -100,7 +103,7 @@ class rtmaps_python(BaseComponent):
             #self.misc3 = 0
             veh = Vehicle()
             veh.kind = 0  # 0 = Car, 1 = Bus, 2 = Truck, 3 = Bike, 4 = Motorcycle
-            veh.theta = box[6]
+            veh.theta = box[6]#np.rad2deg(box[6])
             #veh.speed = 0.0
             veh.width = box[1]
             veh.height = box[0]
@@ -134,6 +137,10 @@ class rtmaps_python(BaseComponent):
         self.outputs["P2"].write(P2, ts)
         self.outputs["V2C"].write(np.array(V2C, np.float32), ts)
 
+        #np_pcd=points[:,0:3]
+        #pcd = open3d.geometry.PointCloud()
+        #pcd.points = open3d.utility.Vector3dVector(np_pcd)
+        #cself.outputs["pointCloud"].write(np.array(pcd.points,np.float32),ts)
 # Death() will be called once at diagram execution shutdown
 
     def Death(self):
@@ -160,23 +167,23 @@ class KittiTrackingDataset:
 
         #self.ob_path = ob_path
 
-        self.items=[]
-        for i in range(len(self)):
-            self.items.append(self.getitem(i))
-            print(self.items[-1])
+       # self.items=[]
+       # for i in range(len(self)):
+       #     self.items.append(self.getitem(i))
+       #     print(self.items[-1])
 
     def __len__(self):
         return len(self.all_ids)-1
 
-    def __getitem__(self,item):
-        print(self.items[item],"\n\n")
-        return self.items[item]
+    #def __getitem__(self,item):
+    #    print(self.items[item],"\n\n")
+    #    return self.items[item]
 
-    def getitem(self, item):
+    def __getitem__(self, item):
 
         name = str(item).zfill(6)
 
-        velo_path = os.path.join(self.velo_path,name+'.bin')
+        velo_path = os.path.join(self.velo_path, name+'.bin')
         image_path = os.path.join(self.image_path, name+'.png')
 
         if self.load_points:

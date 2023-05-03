@@ -76,7 +76,7 @@ def write_one_tick(ts, P2, V2C, pose, objs, file):
         #updated_state, score = ob, 1
         #print(real)
         box = register_bbs(np.array(
-            [[real.x, real.y, real.z,real.data.length, real.data.width, real.data.height,  real.data.theta]]), pose)
+            [[real.x, real.y, real.z,real.data.length, real.data.width, real.data.height,  np.deg2rad(real.data.theta)]]), pose)
 
         box[:, 6] = -box[:, 6] - np.pi / 2
         box[:, 2] -= box[:, 5] / 2
