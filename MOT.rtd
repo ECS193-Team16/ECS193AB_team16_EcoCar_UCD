@@ -308,8 +308,8 @@
     <ReadOnlyProperty LongName="detectionAndFusion.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="detectionAndFusion.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
     <Property LongName="detectionAndFusion.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="detectionAndFusion.left" Type="1">519</Property>
-    <Property LongName="detectionAndFusion.top" Type="1">280</Property>
+    <Property LongName="detectionAndFusion.left" Type="1">217</Property>
+    <Property LongName="detectionAndFusion.top" Type="1">363</Property>
     <Property LongName="detectionAndFusion.width" Type="1">627</Property>
     <Property LongName="detectionAndFusion.height" Type="1">471</Property>
     <Property LongName="detectionAndFusion.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
@@ -431,8 +431,8 @@
     <ReadOnlyProperty LongName="Fusion.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="Fusion.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
     <Property LongName="Fusion.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="Fusion.left" Type="1">840</Property>
-    <Property LongName="Fusion.top" Type="1">179</Property>
+    <Property LongName="Fusion.left" Type="1">848</Property>
+    <Property LongName="Fusion.top" Type="1">311</Property>
     <Property LongName="Fusion.width" Type="1">799</Property>
     <Property LongName="Fusion.height" Type="1">600</Property>
     <Property LongName="Fusion.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
@@ -539,8 +539,8 @@
     <ReadOnlyProperty LongName="FusionUnregisterd.viewport_subsection_end" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="FusionUnregisterd.window_subsection_begin" Type="3" SubType="256"><![CDATA[Window]]></ReadOnlyProperty>
     <Property LongName="FusionUnregisterd.title" Type="3"><![CDATA[]]></Property>
-    <Property LongName="FusionUnregisterd.left" Type="1">65</Property>
-    <Property LongName="FusionUnregisterd.top" Type="1">514</Property>
+    <Property LongName="FusionUnregisterd.left" Type="1">73</Property>
+    <Property LongName="FusionUnregisterd.top" Type="1">550</Property>
     <Property LongName="FusionUnregisterd.width" Type="1">640</Property>
     <Property LongName="FusionUnregisterd.height" Type="1">480</Property>
     <Property LongName="FusionUnregisterd.windowBackend" Type="4"><![CDATA[2|0|XCB|Xlib]]></Property>
@@ -647,7 +647,7 @@
     <Property LongName="MOT.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="MOT.capturePythonPrint" Type="0">true</Property>
     <Property LongName="MOT.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">1659085</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="MOT.pythonPID" Type="1">1826095</ReadOnlyProperty>
     <Property LongName="MOT.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="MOT.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="MOT.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -684,7 +684,7 @@
     <Property LongName="oxt2gobalPose.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="oxt2gobalPose.capturePythonPrint" Type="0">true</Property>
     <Property LongName="oxt2gobalPose.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">1659099</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="oxt2gobalPose.pythonPID" Type="1">1826110</ReadOnlyProperty>
     <Property LongName="oxt2gobalPose.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="oxt2gobalPose.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="oxt2gobalPose.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -723,36 +723,32 @@
       <Property LongName="PythonBridge_1.V2C.fifosize" Type="1">16</Property>
       <Property LongName="PythonBridge_1.V2C.periodic" Type="0">false</Property>
     </Output>
-    <Output LongName="PythonBridge_1.pointCloud" Name="pointCloud">
-      <Property LongName="PythonBridge_1.pointCloud.subsampling" Type="1">1</Property>
-      <Property LongName="PythonBridge_1.pointCloud.fifosize" Type="1">16</Property>
-      <Property LongName="PythonBridge_1.pointCloud.periodic" Type="0">false</Property>
-    </Output>
     <Property LongName="PythonBridge_1.guard_begin" Type="0" SubType="128">true</Property>
     <Property LongName="PythonBridge_1.internalInputs" Type="3" SubType="128"><![CDATA[]]></Property>
-    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;20==;20#pose;10==;16#P2;10==;0#V2C;10==;0#pointCloud;10==;100000]]></Property>
+    <Property LongName="PythonBridge_1.internalOutputs" Type="3" SubType="128"><![CDATA[objects;20==;20#pose;10==;16#P2;10==;0#V2C;10==;0]]></Property>
     <Property LongName="PythonBridge_1.internalProperties" Type="3" SubType="128"><![CDATA[dataset_path||13||/home/lulu/Projects/EcoCar/Data/training||0#seq_id||8||1#detections_path||13||/home/lulu/Projects/EcoCar/Data/detection/virconv/training||0#min_score||11||-0.5]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_begin_configuration" Type="3" SubType="256"><![CDATA[Advanced Configuration]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_1.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_1.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">1810185</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_1.pythonPID" Type="1">1826624</ReadOnlyProperty>
     <Property LongName="PythonBridge_1.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_1.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_1.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
     <ReadOnlyProperty LongName="PythonBridge_1.basic_begin_configuration" Type="3" SubType="256"><![CDATA[Basic Configuration]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.className" Type="3"><![CDATA[rtmaps_python]]></Property>
-    <Property LongName="PythonBridge_1.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3.10]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3.10]]></Relative></Property>
+    <Property LongName="PythonBridge_1.pythonExecutable" Type="3" SubType="16"><![CDATA[/bin/python3]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/../../../../bin/python3]]></Relative></Property>
     <Property LongName="PythonBridge_1.pythonFilename" Type="3" SubType="80"><![CDATA[/home/lulu/Projects/EcoCar/kitti_dataset.bridge.py]]><Relative><![CDATA[%RTMAPS_DIAGRAMDIR%/kitti_dataset.bridge.py]]></Relative></Property>
     <Property LongName="PythonBridge_1.readingPolicy" Type="4"><![CDATA[5|2|Synchro|Reactive|Sampling|Triggered by First Input|Periodic Resampling Based on Timestamps]]></Property>
     <Property LongName="PythonBridge_1.samplingPeriod" Type="1" SubType="1">400000</Property>
     <Property LongName="PythonBridge_1.inputsBehavior" Type="4"><![CDATA[2|0|AllowEmptyInputs|Wait4AllInputs]]></Property>
     <ReadOnlyProperty LongName="PythonBridge_1.basic_end_configuration" Type="0" SubType="512">true</ReadOnlyProperty>
-    <ReadOnlyProperty LongName="PythonBridge_1.userSubsection" Type="3" SubType="256"><![CDATA[User Subsection]]></ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_1.userSubsection" Type="3" SubType="256"><![CDATA[User Properties]]></ReadOnlyProperty>
     <Property LongName="PythonBridge_1.dataset_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/training]]></Property>
     <Property LongName="PythonBridge_1.seq_id" Type="1">1</Property>
     <Property LongName="PythonBridge_1.detections_path" Type="3"><![CDATA[/home/lulu/Projects/EcoCar/Data/detection/virconv/training]]></Property>
     <Property LongName="PythonBridge_1.min_score" Type="2">-0.5</Property>
+    <Property LongName="PythonBridge_1.guard_end" Type="0" SubType="128">true</Property>
     <ReadOnlyProperty LongName="PythonBridge_1.userSubsectionEnd" Type="0" SubType="512">true</ReadOnlyProperty>
     <Property LongName="PythonBridge_1.threaded" Type="0">true</Property>
     <Property LongName="PythonBridge_1.priority" Type="1">128</Property>
@@ -781,7 +777,7 @@
     <Property LongName="PythonBridge_2.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_2.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_2.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_2.pythonPID" Type="1">1659127</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_2.pythonPID" Type="1">1826150</ReadOnlyProperty>
     <Property LongName="PythonBridge_2.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_2.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_2.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -824,7 +820,7 @@
     <Property LongName="PythonBridge_3.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_3.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_3.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_3.pythonPID" Type="1">1666317</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_3.pythonPID" Type="1">1826202</ReadOnlyProperty>
     <Property LongName="PythonBridge_3.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_3.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_3.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -869,7 +865,7 @@
     <Property LongName="PythonBridge_4.deathBehavior" Type="4"><![CDATA[3|1|WAIT FOR PROCESS INDEFINITELY|KILL PROCESS AFTER TIMEOUT (5sec)|START ANOTHER PROCESS]]></Property>
     <Property LongName="PythonBridge_4.capturePythonPrint" Type="0">true</Property>
     <Property LongName="PythonBridge_4.useTCPOnly" Type="0">false</Property>
-    <ReadOnlyProperty LongName="PythonBridge_4.pythonPID" Type="1">1666645</ReadOnlyProperty>
+    <ReadOnlyProperty LongName="PythonBridge_4.pythonPID" Type="1">1827221</ReadOnlyProperty>
     <Property LongName="PythonBridge_4.FileSHMSize" Type="1">15000000</Property>
     <Property LongName="PythonBridge_4.useNuitka" Type="0">false</Property>
     <ReadOnlyProperty LongName="PythonBridge_4.advance_end_configuration" Type="0" SubType="512">false</ReadOnlyProperty>
@@ -895,7 +891,6 @@
   <Connection Output="PythonBridge_1.V2C" Input="DataViewer_1_2.input_1"/>
   <Connection Output="PythonBridge_1.objects" Input="detectionAndFusion.real_objects_2"/>
   <Connection Output="PythonBridge_4.oobjects" Input="detectionAndFusion.real_objects_3"/>
-  <Connection Output="PythonBridge_1.pointCloud" Input="detectionAndFusion.object_4_data"/>
   <Connection Output="PythonBridge_4.oobjects" Input="Fusion.real_objects_1"/>
   <Connection Output="MOT.oobjects" Input="FusionUnregisterd.real_objects_1"/>
   <Connection Output="PythonBridge_1.objects" Input="MOT.objects"/>
@@ -926,7 +921,6 @@
     <ConnectionShape InstanceName="DataViewer_1_1.input_1" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_2.input_0" color="0"/>
     <ConnectionShape InstanceName="DataViewer_1_2.input_1" color="0"/>
-    <ConnectionShape InstanceName="detectionAndFusion.object_4_data" color="0"/>
     <ConnectionShape InstanceName="detectionAndFusion.real_objects_2" color="0"/>
     <ConnectionShape InstanceName="detectionAndFusion.real_objects_3" color="0"/>
     <ConnectionShape InstanceName="Fusion.real_objects_1" color="0"/>
